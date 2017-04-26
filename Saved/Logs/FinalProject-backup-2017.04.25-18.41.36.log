@@ -1,0 +1,353 @@
+﻿Log file open, 04/10/17 20:21:15
+LogInit:Display: Running engine for game: FinalProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-572186824) SRandInit(-572186823).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 6.958951
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.11-00.21.18:224][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.11-00.21.18:224][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.11-00.21.18:455][  0]LogInit: Computer: DESKTOP-9V4H6D4
+[2017.04.11-00.21.18:455][  0]LogInit: User: Josh
+[2017.04.11-00.21.18:455][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.11-00.21.18:455][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2017.04.11-00.21.18:455][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.11-00.21.18:455][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.11-00.21.18:455][  0]LogMemory: Process Physical Memory: 265.70 MB used, 265.70 MB peak
+[2017.04.11-00.21.18:455][  0]LogMemory: Process Virtual Memory: 262.70 MB used, 262.70 MB peak
+[2017.04.11-00.21.18:455][  0]LogMemory: Physical Memory: 5885.63 MB used,  2205.31 MB free, 8090.94 MB total
+[2017.04.11-00.21.18:455][  0]LogMemory: Virtual Memory: 645.61 MB used,  2205.31 MB free, 134217728.00 MB total
+[2017.04.11-00.21.20:443][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2017.04.11-00.21.26:903][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.11-00.21.28:247][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.04.11-00.21.28:247][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.11-00.21.28:256][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.11-00.21.28:256][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.11-00.21.28:257][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.11-00.21.28:257][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.11-00.21.28:257][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.11-00.21.28:271][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.11-00.21.28:272][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.04.11-00.21.28:272][  0]LogWindows: EnumDisplayDevices:
+[2017.04.11-00.21.28:272][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.04.11-00.21.28:273][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.11-00.21.28:273][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.11-00.21.28:273][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.11-00.21.28:273][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.04.11-00.21.28:273][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.11-00.21.28:273][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.11-00.21.28:273][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.11-00.21.29:118][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.11-00.21.30:061][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.11-00.21.30:206][  0]LogShaderCompilers: Guid format shader working directory is -60 characters bigger than the processId version (../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/Shaders/WorkingDirectory/19256/).
+[2017.04.11-00.21.30:206][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Josh/AppData/Local/Temp/UnrealShaderWorkingDir/1944E29C46B9C5492EE911B44ADB8B28/'.
+[2017.04.11-00.21.30:229][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.11-00.21.36:690][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.11-00.21.36:752][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.11-00.21.36:814][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.11-00.21.36:877][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.11-00.21.36:969][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.11-00.21.37:037][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.11-00.21.37:101][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.11-00.21.37:160][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.11-00.21.37:224][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.11-00.21.37:308][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.11-00.21.37:430][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.11-00.21.37:491][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.11-00.21.37:552][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.11-00.21.37:609][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.11-00.21.37:669][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.11-00.21.37:800][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.11-00.21.37:800][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.11-00.21.37:839][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.11-00.21.38:014][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.11-00.21.38:051][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.11-00.21.38:114][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.11-00.21.38:172][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.11-00.21.38:232][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.11-00.21.38:367][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.11-00.21.38:367][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.11-00.21.40:209][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.11-00.21.40:209][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2017.04.11-00.21.40:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.11-00.21.40:209][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.11-00.21.40:209][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.11-00.21.40:209][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.11-00.21.40:255][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.11-00.21.40:267][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.11-00.21.40:904][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.11-00.21.41:066][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.11-00.21.41:066][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.11-00.22.08:681][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.11-00.22.09:431][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.11-00.22.12:298][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.11-00.22.12:443][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.11-00.22.12:574][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.11-00.22.12:574][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.11-00.22.12:574][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.11-00.22.36:258][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: finalproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3356675869
+[2017.04.11-00.22.36:644][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.04.11-00.22.36:837][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/530ded22.bin
+[2017.04.11-00.22.37:076][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/2657c409.bin
+[2017.04.11-00.22.37:080][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.37:580][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.38:082][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.38:582][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.39:083][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.39:584][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.40:084][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.40:586][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.41:086][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.41:586][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin', retrying in .5s...
+[2017.04.11-00.22.42:087][  0]LogFileManager:Error: Error moving file '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Intermediate/AssetRegistryCache/143efff1.bin'.
+[2017.04.11-00.22.42:197][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 5.389847 seconds
+[2017.04.11-00.22.42:202][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.11-00.22.42:202][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.11-00.22.42:202][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.11-00.22.42:270][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.11-00.23.42:228][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.11-00.23.42:399][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.11-00.23.42:533][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.11-00.23.46:095][  0]LogConfig:Warning: Failed to saved backup for config[InternationalizationExport]
+[2017.04.11-00.23.47:143][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.11-00.23.49:907][  0]SourceControl: Info Source control is disabled
+[2017.04.11-00.23.50:337][  0]SourceControl: Info Source control is disabled
+[2017.04.11-00.23.51:167][  0]SourceControl: Info Source control is disabled
+[2017.04.11-00.23.51:374][  0]SourceControl: Info Source control is disabled
+[2017.04.11-00.23.59:408][  0]LogEngine: Initializing Engine...
+[2017.04.11-00.23.59:488][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.11-00.24.03:874][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.11-00.24.04:911][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.11-00.24.05:057][  0]LogInit: FAudioDevice initialized.
+[2017.04.11-00.24.05:058][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/Josh/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.11-00.24.05:107][  0]LogInit: Texture streaming: Enabled
+[2017.04.11-00.24.06:141][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.11-00.24.07:415][  0]LogInit: Transaction tracking system initialized
+[2017.04.11-00.24.09:598][  0]BlueprintLog: New page: Editor Load
+[2017.04.11-00.24.15:595][  0]LocalizationService: Info Localization service is disabled
+[2017.04.11-00.24.19:808][  0]LogConsoleResponse:Display: 
+[2017.04.11-00.24.22:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/' took 0.02s
+[2017.04.11-00.24.22:812][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.11-00.24.22:822][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.11-00.24.26:351][  0]SourceControl: Info Source control is disabled
+[2017.04.11-00.24.26:533][  0]LightingResults: New page: Lighting Build
+[2017.04.11-00.24.27:097][  0]MapCheck: New page: Map Check
+[2017.04.11-00.24.27:097][  0]LightingResults: New page: Lighting Build
+[2017.04.11-00.24.37:261][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/1/PHYSX_58B79B73E9EA47C7A7C3213A6438018C_PHYSXPC_1304259E4B2644858357EAB3BF550B62__1_0_0_0_13315_0.udd.
+[2017.04.11-00.24.37:261][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/4/PHYSX_58B79B73E9EA47C7A7C3213A6438018C_PHYSXPC_A20882274CE2BF929E8967AD5A79A5E2__1_0_0_0_13315_0.udd.
+[2017.04.11-00.24.37:261][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/6/4/PHYSX_58B79B73E9EA47C7A7C3213A6438018C_PHYSXPC_A4EE7337400E092712D2CDA734C6BF28__1_0_0_0_13315_0.udd.
+[2017.04.11-00.24.37:261][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/6/PHYSX_58B79B73E9EA47C7A7C3213A6438018C_PHYSXPC_C731A72F4FAA4D59CED2CEB046ABDA0F__1_0_0_0_13315_0.udd.
+[2017.04.11-00.24.37:261][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/3/PHYSX_58B79B73E9EA47C7A7C3213A6438018C_PHYSXPC_3B558F3C47DF0236EAFD718C0F2DC5B2__1_0_0_0_13315_0.udd.
+[2017.04.11-00.24.37:261][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/2/PHYSX_58B79B73E9EA47C7A7C3213A6438018C_PHYSXPC_083D3F7643A391CA0CD8A8AA5678EAE0__1_0_0_0_13315_0.udd.
+[2017.04.11-00.24.37:261][  0]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 32X32) - 53 MB total VRAM
+[2017.04.11-00.24.37:314][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/1/TEXTURE_814DCC3DC72143F49509781513CB9855_BGRA8_A157E9C5484E7A5EA20227A6FF457A9__D049FE871F57AA4F41032A570A235E78032C1188.udd.
+[2017.04.11-00.24.37:314][  0]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 32X32) - 53 MB total VRAM
+[2017.04.11-00.24.37:315][  0]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 32X32) - 53 MB total VRAM
+[2017.04.11-00.24.37:315][  0]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 32X32) - 53 MB total VRAM
+[2017.04.11-00.24.37:324][  0]LogMaterial: Missing cached shader map for material LandscapeMat, compiling. 
+[2017.04.11-00.24.37:382][  0]LogTemp:Display: Added material ShaderMap 0x000001526B8F8800 with Material 0x000001526AC02380 to ShaderMapsBeingCompiled
+[2017.04.11-00.24.37:546][  0]LogTemp:Display: Kicking off shader compilation for LandscapeMat, GameThreadShaderMap 0x000001526B8F8800
+[2017.04.11-00.24.37:588][  0]LogMaterial: Missing cached shader map for material LandscapeMat, compiling. 
+[2017.04.11-00.24.37:589][  0]LogTemp:Display: Added material ShaderMap 0x00000152778D1280 with Material 0x0000015277877B80 to ShaderMapsBeingCompiled
+[2017.04.11-00.24.37:659][  0]LogTemp:Display: Kicking off shader compilation for LandscapeMat, GameThreadShaderMap 0x00000152778D1280
+[2017.04.11-00.24.37:693][  0]LogMaterial: Missing cached shader map for material LandscapeMat, compiling. 
+[2017.04.11-00.24.37:695][  0]LogTemp:Display: Added material ShaderMap 0x0000015278303580 with Material 0x0000015277876800 to ShaderMapsBeingCompiled
+[2017.04.11-00.24.37:748][  0]LogTemp:Display: Kicking off shader compilation for LandscapeMat, GameThreadShaderMap 0x0000015278303580
+[2017.04.11-00.24.37:749][  0]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X64) - 53 MB total VRAM
+[2017.04.11-00.24.38:181][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 54 MB total VRAM
+[2017.04.11-00.24.38:433][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128) - 54 MB total VRAM
+[2017.04.11-00.24.38:510][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_86549E9C4D93FE7F0B701285A0967__FFD5BA3DCD6DBA533A9AD615D644AEAA1EB1D7B0.udd.
+[2017.04.11-00.24.38:510][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 54 MB total VRAM
+[2017.04.11-00.24.39:148][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_86549E9C4D93FE7F0B701285A0967__BFDDC43FD70780E81E26FF2A473321E021B40266.udd.
+[2017.04.11-00.24.39:148][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/3/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_3281E3D14DB8AF6AD541E18692EA4__1A901C8084C438EEC4130ACA517878F20ACC38E8.udd.
+[2017.04.11-00.24.39:148][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/4/6/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_86549E9C4D93FE7F0B701285A0967__1329A9D99A5ABF5D927FFB67A992444C0A0FADA2.udd.
+[2017.04.11-00.24.39:148][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 54 MB total VRAM
+[2017.04.11-00.24.39:216][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128) - 54 MB total VRAM
+[2017.04.11-00.24.39:262][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 54 MB total VRAM
+[2017.04.11-00.24.39:424][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/5/1/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_83A346B144ADE462CEDE648C813E3F4E__B0CBAAF48E1F27616656382B8DE1A5E99FB1936A.udd.
+[2017.04.11-00.24.39:424][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_83A346B144ADE462CEDE648C813E3F4E__56CD677EADD9F6AAD4D8A6DA69899E14F92B8AA6.udd.
+[2017.04.11-00.24.39:424][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 54 MB total VRAM
+[2017.04.11-00.24.39:510][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64) - 54 MB total VRAM
+[2017.04.11-00.24.39:523][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32) - 54 MB total VRAM
+[2017.04.11-00.24.39:527][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 512X512) - 54 MB total VRAM
+[2017.04.11-00.24.39:536][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 128X32) - 54 MB total VRAM
+[2017.04.11-00.24.39:537][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32) - 54 MB total VRAM
+[2017.04.11-00.24.40:217][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/3/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_5CB2AB3A4135E1B45FE55B9BBAE3A5AB_0__832402D01C8C693A72228159658FF64694E92B4E.udd.
+[2017.04.11-00.24.40:217][  0]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.11-00.24.43:281][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Josh/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/7/PHYSXPC_VIS_84A5A09B87CA4ED3B9B301DECE89D011_286B785944A65566B0F472B11180FC56.udd.
+[2017.04.11-00.24.43:282][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.11-00.24.43:473][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.11-00.24.43:640][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 167.327ms to complete.
+[2017.04.11-00.24.43:641][  0]LogFileHelpers: Loading map 'Benoit_Isaacs_multiplayer' took 17.174
+[2017.04.11-00.24.49:716][  0]LogCollectionManager: Loaded 0 collections in 0.003473 seconds
+[2017.04.11-00.24.50:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Collections/' took 0.01s
+[2017.04.11-00.24.50:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/Developers/Josh/Collections/' took 0.01s
+[2017.04.11-00.24.50:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/Collections/' took 0.01s
+[2017.04.11-00.24.50:227][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2017.04.11-00.24.50:269][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2259 classes and 459 folders.
+[2017.04.11-00.24.51:224][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.140 s
+[2017.04.11-00.24.51:234][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.009 s
+[2017.04.11-00.24.53:062][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.04.11-00.24.56:307][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.04.11-00.24.56:575][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.11-00.24.58:822][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.11-00.25.01:921][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.04.11-00.25.01:921][  0]LogLoad: (Engine Initialization) Total time: 245.32 seconds
+[2017.04.11-00.25.01:921][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.45 seconds
+[2017.04.11-00.25.01:922][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.11-00.25.01:922][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.11-00.25.02:565][  0]LogOcInput: OculusInput pre-init called
+[2017.04.11-00.25.04:009][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.11-00.25.05:130][  0]LogSlate: Took 0.084692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.11-00.25.05:326][  0]LogSlate: Took 0.109803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.11-00.25.05:728][  0]LogSlate: Took 0.071326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.11-00.25.08:960][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.11-00.25.11:558][  1]LogTemp:Display: Finished compile of shader map 0x000001526B8F8800
+[2017.04.11-00.25.11:558][  1]LogTemp:Display: Shader map LandscapeMat complete, GameThreadShaderMap 0x000001526B8F8800, marking material LandscapeMat as finished
+[2017.04.11-00.25.11:558][  1]LogTemp:Display: Marking material as finished 0x000001526AC02380
+[2017.04.11-00.25.12:151][  1]LogSlate: Took 0.025925 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.11-00.25.12:494][  2]LogTemp:Display: Finished compile of shader map 0x00000152778D1280
+[2017.04.11-00.25.12:494][  2]LogTemp:Display: Shader map LandscapeMat complete, GameThreadShaderMap 0x00000152778D1280, marking material LandscapeMat as finished
+[2017.04.11-00.25.12:494][  2]LogTemp:Display: Marking material as finished 0x0000015277877B80
+[2017.04.11-00.25.12:773][  3]LogAssetRegistry: Asset discovery search completed in 156.1513 seconds
+[2017.04.11-00.25.12:779][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.005873 seconds (found 0 objects)
+[2017.04.11-00.25.12:779][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.006146 seconds (updated 0 objects)
+[2017.04.11-00.25.12:918][  3]LogTemp:Display: Finished compile of shader map 0x0000015278303580
+[2017.04.11-00.25.12:918][  3]LogTemp:Display: Shader map LandscapeMat complete, GameThreadShaderMap 0x0000015278303580, marking material LandscapeMat as finished
+[2017.04.11-00.25.12:918][  3]LogTemp:Display: Marking material as finished 0x0000015277876800
+[2017.04.11-00.25.23:212][ 75]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.04.11-00.25.34:149][666]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.04.11-00.40.05:582][746]LogSlate: Took 0.018688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.11-00.41.31:605][ 31]LogSlate: Took 0.026640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.11-00.41.39:482][ 31]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0910 seconds. Added 112 classes and 0 folders.
+[2017.04.11-00.41.43:585][ 31]LogSlate: Took 0.070796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.11-00.51.08:085][472]LogSlate: Took 0.024569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.11-00.51.11:628][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 3.038
+[2017.04.11-00.51.11:756][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/AllLevels/BP_GameInfoInstance] ([1] browsable assets)...
+[2017.04.11-00.51.11:756][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/AllLevels/BP_GameInfoInstance]
+[2017.04.11-00.51.12:024][472]LogSavePackage: Save=187.57ms
+[2017.04.11-00.51.12:024][472]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/BP_GameInfoInstance_Auto1EB8122A9409DB9A652CB59A999728A60.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/AllLevels/BP_GameInfoInstance_Auto1.uasset'
+[2017.04.11-00.51.12:025][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/AllLevels/BP_GameInfoInstance_Auto1.uasset
+[2017.04.11-00.51.12:034][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/AllLevels/BP_PlayerInfo] ([1] browsable assets)...
+[2017.04.11-00.51.12:034][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/AllLevels/BP_PlayerInfo]
+[2017.04.11-00.51.12:042][472]LogSavePackage: Save=6.22ms
+[2017.04.11-00.51.12:042][472]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/BP_PlayerInfo_Auto1CE0D08A34564070D4A7C9A892FE7EE2D.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/AllLevels/BP_PlayerInfo_Auto1.uasset'
+[2017.04.11-00.51.12:043][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/AllLevels/BP_PlayerInfo_Auto1.uasset
+[2017.04.11-00.51.12:094][472]LogFileHelpers: Auto-saving content packages took 0.464
+[2017.04.11-01.08.54:415][397]LogMetaData: Removing '/Game/BluePrints/AllLevels/BP_PlayerSaveGame.SKEL_BP_PlayerSaveGame_C' ref from Metadata '/Game/BluePrints/AllLevels/BP_PlayerInfo.PackageMetaData'
+[2017.04.11-01.08.54:415][397]LogMetaData: Removing '/Game/BluePrints/AllLevels/BP_PlayerSaveGame.BP_PlayerSaveGame_C' ref from Metadata '/Game/BluePrints/AllLevels/BP_PlayerInfo.PackageMetaData'
+[2017.04.11-01.08.54:632][397]LogSavePackage: Save=37.54ms
+[2017.04.11-01.08.54:632][397]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/BP_PlayerSaveGame408B2A804C03DBBEDA4911A2A1C0E920.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/AllLevels/BP_PlayerSaveGame.uasset'
+[2017.04.11-01.08.54:674][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/AllLevels/BP_PlayerSaveGame.uasset
+[2017.04.11-01.09.12:581][321]LogSavePackage: Save=9.17ms
+[2017.04.11-01.09.12:582][321]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/BP_GameInfoInstanceA0DEA2024F5A3569E16A1FB3572658AE.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/AllLevels/BP_GameInfoInstance.uasset'
+[2017.04.11-01.09.12:591][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/AllLevels/BP_GameInfoInstance.uasset
+[2017.04.11-01.09.12:627][321]LogSavePackage: Save=14.18ms
+[2017.04.11-01.09.12:627][321]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/BP_PlayerInfo9DA26E194B073070BDA8E6813BD1907A.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/AllLevels/BP_PlayerInfo.uasset'
+[2017.04.11-01.09.12:641][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/AllLevels/BP_PlayerInfo.uasset
+[2017.04.11-01.09.12:686][321]LogSavePackage: Save=23.94ms
+[2017.04.11-01.09.12:686][321]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/PlayerInfo166A2236471458F115FBB29D6B44613A.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/AllLevels/PlayerInfo.uasset'
+[2017.04.11-01.09.12:691][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/AllLevels/PlayerInfo.uasset
+[2017.04.11-01.10.33:290][650]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.033
+[2017.04.11-01.10.33:292][650]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Characters/ThirdPersonCharacter] ([1] browsable assets)...
+[2017.04.11-01.10.33:363][650]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Characters/ThirdPersonCharacter.ThirdPersonCharacter]
+[2017.04.11-01.10.33:363][650]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Characters/ThirdPersonCharacter]
+[2017.04.11-01.10.33:620][650]LogSavePackage: Save=251.07ms
+[2017.04.11-01.10.33:620][650]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/ThirdPersonCharacter_Auto2E878042B4704A4AD2E8DE58714008D42.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/Characters/ThirdPersonCharacter_Auto2.uasset'
+[2017.04.11-01.10.33:621][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/Characters/ThirdPersonCharacter_Auto2.uasset
+[2017.04.11-01.10.33:621][650]LogFileHelpers: Auto-saving content packages took 0.330
+[2017.04.11-01.11.34:306][800]LogSavePackage: Save=98.01ms
+[2017.04.11-01.11.34:306][800]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/ThirdPersonCharacter29FCEE3F475829788DEC049DBC0CD86D.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/Characters/ThirdPersonCharacter.uasset'
+[2017.04.11-01.11.34:330][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/Characters/ThirdPersonCharacter.uasset
+[2017.04.11-01.13.03:221][985]LogMetaData: Removing '/Game/BluePrints/GamePlay/GamePlayGM.GamePlayGM:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/GamePlay/BP_GameMode.PackageMetaData'
+[2017.04.11-01.13.03:221][985]LogMetaData: Removing '/Game/BluePrints/GamePlay/GamePlayGM.SKEL_GamePlayGM_C' ref from Metadata '/Game/BluePrints/GamePlay/BP_GameMode.PackageMetaData'
+[2017.04.11-01.13.03:221][985]LogMetaData: Removing '/Game/BluePrints/GamePlay/GamePlayGM.GamePlayGM_C' ref from Metadata '/Game/BluePrints/GamePlay/BP_GameMode.PackageMetaData'
+[2017.04.11-01.13.03:221][985]LogMetaData: Removing '/Game/BluePrints/GamePlay/GamePlayGM.GamePlayGM:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/GamePlay/BP_GameMode.PackageMetaData'
+[2017.04.11-01.13.03:221][985]LogMetaData: Removing '/Game/BluePrints/GamePlay/GamePlayGM.GamePlayGM:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/GamePlay/BP_GameMode.PackageMetaData'
+[2017.04.11-01.13.03:256][985]LogSavePackage: Save=13.71ms
+[2017.04.11-01.13.03:257][985]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/GamePlayGM3ED6232F450279351355398425B56F45.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/GamePlay/GamePlayGM.uasset'
+[2017.04.11-01.13.03:261][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/GamePlay/GamePlayGM.uasset
+[2017.04.11-01.20.34:390][148]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.018
+[2017.04.11-01.20.34:404][148]LogSavePackage: Save=6.15ms
+[2017.04.11-01.20.34:404][148]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/BP_GameMode_Auto3B067AFFF408B8D8755AA09BD68E30F70.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/GamePlay/BP_GameMode_Auto3.uasset'
+[2017.04.11-01.20.34:405][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/GamePlay/BP_GameMode_Auto3.uasset
+[2017.04.11-01.20.34:406][148]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/GamePlay/GamePlayPC] ([1] browsable assets)...
+[2017.04.11-01.20.34:406][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/GamePlay/GamePlayPC]
+[2017.04.11-01.20.34:422][148]LogSavePackage: Save=13.97ms
+[2017.04.11-01.20.34:422][148]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/GamePlayPC_Auto3FA1EE7924598A188C3458EA17A4C84B8.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/GamePlay/GamePlayPC_Auto3.uasset'
+[2017.04.11-01.20.34:423][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/GamePlay/GamePlayPC_Auto3.uasset
+[2017.04.11-01.20.34:423][148]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/Lobby/LobbyGM] ([1] browsable assets)...
+[2017.04.11-01.20.34:423][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Lobby/LobbyGM]
+[2017.04.11-01.20.34:438][148]LogSavePackage: Save=12.78ms
+[2017.04.11-01.20.34:438][148]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/LobbyGM_Auto3E9243B66491E0013288574961ACCDF5E.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/Lobby/LobbyGM_Auto3.uasset'
+[2017.04.11-01.20.34:439][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/Lobby/LobbyGM_Auto3.uasset
+[2017.04.11-01.20.34:440][148]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/Lobby/LobbyPC] ([1] browsable assets)...
+[2017.04.11-01.20.34:440][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Lobby/LobbyPC]
+[2017.04.11-01.20.34:453][148]LogSavePackage: Save=11.59ms
+[2017.04.11-01.20.34:453][148]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/LobbyPC_Auto33D14C8474062E2442C3290A54F38C6ED.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/Lobby/LobbyPC_Auto3.uasset'
+[2017.04.11-01.20.34:454][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/Autosaves/Game/BluePrints/Lobby/LobbyPC_Auto3.uasset
+[2017.04.11-01.20.34:454][148]LogFileHelpers: Auto-saving content packages took 0.063
+[2017.04.11-01.36.08:468][296]LogSavePackage: Save=7.39ms
+[2017.04.11-01.36.08:468][296]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/BP_GameMode0155C7C94291D4BC78578080D135AEBD.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/GamePlay/BP_GameMode.uasset'
+[2017.04.11-01.36.08:476][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/GamePlay/BP_GameMode.uasset
+[2017.04.11-01.36.08:500][296]LogSavePackage: Save=17.31ms
+[2017.04.11-01.36.08:500][296]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/GamePlayPC5F0EFD1B4FE8D0483A3F019789CB309E.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/GamePlay/GamePlayPC.uasset'
+[2017.04.11-01.36.08:506][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/GamePlay/GamePlayPC.uasset
+[2017.04.11-01.36.08:528][296]LogSavePackage: Save=13.03ms
+[2017.04.11-01.36.08:528][296]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/LobbyGMFF31C2AF4BB25AF697B219B09BDA46E8.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/Lobby/LobbyGM.uasset'
+[2017.04.11-01.36.08:532][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/Lobby/LobbyGM.uasset
+[2017.04.11-01.36.08:574][296]LogSavePackage: Save=34.50ms
+[2017.04.11-01.36.08:574][296]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/LobbyPCDF95C3124779966B6E48EBBE5AF836A4.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/Lobby/LobbyPC.uasset'
+[2017.04.11-01.36.08:600][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/BluePrints/Lobby/LobbyPC.uasset
+[2017.04.11-01.39.01:228][217]LogSavePackage: Save=125.20ms
+[2017.04.11-01.39.01:228][217]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/ChatTextE97B531A471C38A0E45F3E9EDCA8074F.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/UI/AllLevels/ChatText.uasset'
+[2017.04.11-01.39.01:255][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/UI/AllLevels/ChatText.uasset
+[2017.04.11-01.39.01:269][217]LogSavePackage: Save=8.25ms
+[2017.04.11-01.39.01:269][217]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/ChatText05AA46CC4F6D36F67A4A63A9747E1000.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/UI/Lobby/ChatText.uasset'
+[2017.04.11-01.39.01:271][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/UI/Lobby/ChatText.uasset
+[2017.04.11-01.39.01:311][217]LogSavePackage: Save=36.07ms
+[2017.04.11-01.39.01:311][217]LogSavePackage: Moving '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Saved/MainMenu9E70B22042B5B438CDFC83A6504F65E6.tmp' to '../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/UI/MainMenu/MainMenu.uasset'
+[2017.04.11-01.39.01:313][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Josh/Documents/School 2017 winter/unreal_engine_class/UnrealFinalProject-GAME254/Content/UI/MainMenu/MainMenu.uasset
