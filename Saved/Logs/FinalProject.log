@@ -546,3 +546,227 @@ LogInit: Object subsystem initialized
 [2017.04.28-00.58.03:281][446]LogSavePackage: Save=76.29ms
 [2017.04.28-00.58.03:281][446]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData39D5D7EC4FA5D5A3459949B3DB21FC68.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
 [2017.04.28-00.58.03:286][446]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CustomContent/UI/Menus/ServerMenu.ServerMenu:WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CustomContent/UI/Menus/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CustomContent/UI/Menus/LoadingScreen.LoadingScreen_C:WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CustomContent/UI/Menus/HostMenu.HostMenu:WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CustomContent/UI/Menus/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_19:ServerMenu_C_0.WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CustomContent/UI/Menus/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CustomContent/UI/Menus/HostMenu.HostMenu_C:WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HostMenu_C_54.WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_19:ServerMenu_C_1.WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HostMenu_C_55.WidgetTree.CanvasPanel_0
+[2017.04.28-01.30.58:384][838]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/CustomContent/UI/AllLevels/Hud.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Border /Engine/UMG/Editor/Transient.Border_0).  Import failed...
+[2017.04.28-01.30.58:384][838]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.04.28-01.31.26:508][147]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.021
+[2017.04.28-01.31.26:512][147]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/Menus/ServerMenu] ([1] browsable assets)...
+[2017.04.28-01.31.26:512][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/Menus/ServerMenu]
+[2017.04.28-01.31.26:629][147]LogSavePackage: Save=114.71ms
+[2017.04.28-01.31.26:630][147]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu_Auto89200C7144DA51B7C12D6298235B8C364.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto8.uasset'
+[2017.04.28-01.31.26:633][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto8.uasset
+[2017.04.28-01.31.26:633][147]LogFileHelpers: Auto-saving content packages took 0.125
+[2017.04.28-01.38.39:633][426]LogEditorTransaction: Undo Edit Period
+[2017.04.28-01.38.40:480][473]Cmd: TRANSACTION UNDO
+[2017.04.28-01.38.40:480][473]LogEditorTransaction: Undo Edit Period
+[2017.04.28-01.38.56:341][417]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-01.38.56:955][439]LogSavePackage: Save=106.43ms
+[2017.04.28-01.38.56:955][439]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuBCF942884FC21124730193AD353B41E9.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-01.38.56:960][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-01.41.27:220][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.016
+[2017.04.28-01.41.27:224][786]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/Menus/ServerMenu] ([1] browsable assets)...
+[2017.04.28-01.41.27:224][786]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/Menus/ServerMenu]
+[2017.04.28-01.41.27:250][786]LogSavePackage: Save=17.29ms
+[2017.04.28-01.41.27:250][786]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu_Auto9F9EAC20D428C92C374EBE1A48B2A59C4.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto9.uasset'
+[2017.04.28-01.41.27:254][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto9.uasset
+[2017.04.28-01.41.27:254][786]LogFileHelpers: Auto-saving content packages took 0.033
+[2017.04.28-01.43.42:604][446]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-01.43.43:162][462]LogSavePackage: Save=103.13ms
+[2017.04.28-01.43.43:162][462]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu1A8027CC414E3E569FA2CF877A9122B2.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-01.43.43:168][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-01.47.06:309][832]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-01.47.06:869][851]LogSavePackage: Save=20.63ms
+[2017.04.28-01.47.06:869][851]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu9B90B88040129C8C43AACBA84D329B0F.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-01.47.06:876][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-01.50.28:472][648]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-01.50.29:058][669]LogSavePackage: Save=104.06ms
+[2017.04.28-01.50.29:059][669]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuE4F5C34A44E0D7DC83B5BF9068C9A044.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-01.50.29:065][669]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-01.50.58:782][403]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-01.50.59:228][420]LogSavePackage: Save=27.51ms
+[2017.04.28-01.50.59:228][420]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu22F005C24FC4C04CDB8DAA811CD59131.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-01.50.59:235][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-01.52.21:674][750]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-01.52.22:208][771]LogSavePackage: Save=27.32ms
+[2017.04.28-01.52.22:208][771]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuA061166343023BF81B62629282619F99.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-01.52.22:214][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-01.53.11:429][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.014
+[2017.04.28-01.53.11:432][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/Menus/ServerMenu] ([1] browsable assets)...
+[2017.04.28-01.53.11:432][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/Menus/ServerMenu]
+[2017.04.28-01.53.11:465][774]LogSavePackage: Save=24.97ms
+[2017.04.28-01.53.11:465][774]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu_Auto0118B8B2C4D22DE7C671B6C9578DF153C.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto0.uasset'
+[2017.04.28-01.53.11:469][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto0.uasset
+[2017.04.28-01.53.11:469][774]LogFileHelpers: Auto-saving content packages took 0.039
+[2017.04.28-01.56.05:601][460]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-01.56.06:487][483]LogSavePackage: Save=111.68ms
+[2017.04.28-01.56.06:487][483]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu55C7CE044075D8973C7901B963B38129.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-01.56.06:495][483]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.03.43:249][991]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.019
+[2017.04.28-02.03.43:252][991]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/Menus/ServerMenu] ([1] browsable assets)...
+[2017.04.28-02.03.43:252][991]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/Menus/ServerMenu]
+[2017.04.28-02.03.43:293][991]LogSavePackage: Save=31.37ms
+[2017.04.28-02.03.43:293][991]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu_Auto1470B6486403B66C29396568B166DD516.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto1.uasset'
+[2017.04.28-02.03.43:296][991]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto1.uasset
+[2017.04.28-02.03.43:296][991]LogFileHelpers: Auto-saving content packages took 0.047
+[2017.04.28-02.03.52:109][512]LogClass:Warning: Type mismatch in PlayModeHeader of SKEL_ServerMenu_C - Previous (StructProperty) Current(TextProperty) for package:  FObjectReader
+[2017.04.28-02.08.56:124][940]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.08.57:108][970]LogSavePackage: Save=40.80ms
+[2017.04.28-02.08.57:108][970]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu883CA0E348AC0916F385FA8603319075.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.08.57:115][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.09.24:761][660]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.09.25:449][682]LogSavePackage: Save=122.52ms
+[2017.04.28-02.09.25:449][682]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuDFC0146F4721A14341DDE6804252031F.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.09.25:455][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.10.54:228][825]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.10.54:845][845]LogSavePackage: Save=120.39ms
+[2017.04.28-02.10.54:845][845]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu42B9E3614F1E09C92F71299446436154.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.10.54:852][845]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.11.04:717][ 76]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.11.05:198][ 93]LogSavePackage: Save=35.40ms
+[2017.04.28-02.11.05:198][ 93]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu08F9E8724062FE49EAE341807CC59E85.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.11.05:204][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.13.08:764][ 63]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.13.09:282][ 82]LogSavePackage: Save=40.40ms
+[2017.04.28-02.13.09:282][ 82]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuB84A9FF1478C683BD468019817A252CC.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.13.09:289][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.13.56:085][249]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.13.56:681][268]LogSavePackage: Save=121.13ms
+[2017.04.28-02.13.56:681][268]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu98E0B5354ABAA5956F6F37BB5E116D66.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.13.56:688][268]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.15.01:752][145]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.020
+[2017.04.28-02.15.01:755][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/Menus/ServerMenu] ([1] browsable assets)...
+[2017.04.28-02.15.01:755][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/Menus/ServerMenu]
+[2017.04.28-02.15.01:808][145]LogSavePackage: Save=43.01ms
+[2017.04.28-02.15.01:808][145]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu_Auto28BCBB9CF4F32346E27DDA3B6D987AF74.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto2.uasset'
+[2017.04.28-02.15.01:812][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto2.uasset
+[2017.04.28-02.15.01:812][145]LogFileHelpers: Auto-saving content packages took 0.060
+[2017.04.28-02.15.34:108][185]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.15.34:715][204]LogSavePackage: Save=117.58ms
+[2017.04.28-02.15.34:715][204]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuF74F1CCB4E3D159FA2EFD6BAAB46C293.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.15.34:722][204]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.18.39:815][329]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.18.40:484][352]LogSavePackage: Save=119.96ms
+[2017.04.28-02.18.40:484][352]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu77D000E34A3A3B47A857D3AD0C845C02.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.18.40:492][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.19.04:519][500]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.19.05:056][520]LogSavePackage: Save=40.72ms
+[2017.04.28-02.19.05:056][520]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuAB89D18646B514F8E9457EA4E019823C.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.19.05:060][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.21.18:631][ 53]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.21.19:390][ 86]LogSavePackage: Save=44.81ms
+[2017.04.28-02.21.19:390][ 86]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu5AEE862446870DBC79E4399B997541D0.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.21.19:398][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.23.34:728][633]LogClass:Warning: Type mismatch in FoundSessions of SKEL_ServerMenu_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.04.28-02.23.37:585][802]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.23.38:242][823]LogSavePackage: Save=124.76ms
+[2017.04.28-02.23.38:242][823]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu36332CB3449BB78A2F478D935EC044F4.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.23.38:248][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.25.17:091][420]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.018
+[2017.04.28-02.25.17:095][420]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/Menus/ServerMenu] ([1] browsable assets)...
+[2017.04.28-02.25.17:095][420]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/Menus/ServerMenu]
+[2017.04.28-02.25.17:152][420]LogSavePackage: Save=49.57ms
+[2017.04.28-02.25.17:152][420]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu_Auto3E0205EF84291E0FDB2C52DAD72AC8F3A.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto3.uasset'
+[2017.04.28-02.25.17:157][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto3.uasset
+[2017.04.28-02.25.17:157][420]LogFileHelpers: Auto-saving content packages took 0.065
+[2017.04.28-02.25.39:987][876]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.25.40:867][911]LogSavePackage: Save=128.42ms
+[2017.04.28-02.25.40:867][911]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuD06F60C1415DA896FA813FB2883F423E.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.25.40:873][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.36.35:498][224]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.021
+[2017.04.28-02.36.35:501][224]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/Menus/ServerMenu] ([1] browsable assets)...
+[2017.04.28-02.36.35:501][224]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/Menus/ServerMenu]
+[2017.04.28-02.36.35:650][224]LogSavePackage: Save=51.04ms
+[2017.04.28-02.36.35:650][224]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu_Auto47365FDFD4B66D893319457B6322AEA5A.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto4.uasset'
+[2017.04.28-02.36.35:654][224]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto4.uasset
+[2017.04.28-02.36.35:654][224]LogFileHelpers: Auto-saving content packages took 0.155
+[2017.04.28-02.36.37:084][310]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.36.37:721][335]LogSavePackage: Save=46.39ms
+[2017.04.28-02.36.37:721][335]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu9BD1C0D54411F28C5E6E04A31999C709.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.36.37:728][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.38.40:622][632]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.38.41:195][647]LogSavePackage: Save=134.40ms
+[2017.04.28-02.38.41:195][647]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu54F6528D4B7BE7730AD06DADB74518AB.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.38.41:201][647]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.39.56:932][991]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.39.57:599][ 12]LogSavePackage: Save=128.45ms
+[2017.04.28-02.39.57:599][ 12]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuF00BE5DC4F3330F2B8D688967F473E81.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.39.57:605][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.41.11:530][112]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.41.12:150][130]LogSavePackage: Save=132.54ms
+[2017.04.28-02.41.12:150][130]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu1D9ED00848B1B89B61DAD9B7970A07F7.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.41.12:158][130]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.46.42:129][241]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.019
+[2017.04.28-02.46.42:133][241]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/Menus/ServerMenu] ([1] browsable assets)...
+[2017.04.28-02.46.42:133][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/Menus/ServerMenu]
+[2017.04.28-02.46.42:195][241]LogSavePackage: Save=52.10ms
+[2017.04.28-02.46.42:195][241]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu_Auto5F3A8CC1A4140AEE84DA6B9A89F22B381.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto5.uasset'
+[2017.04.28-02.46.42:198][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/Menus/ServerMenu_Auto5.uasset
+[2017.04.28-02.46.42:198][241]LogFileHelpers: Auto-saving content packages took 0.068
+[2017.04.28-02.48.01:837][647]LogEditorTransaction: Undo Move Nodes
+[2017.04.28-02.48.04:342][793]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.48.04:962][811]LogSavePackage: Save=134.90ms
+[2017.04.28-02.48.04:962][811]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuD89ADA694EB08A00E32FC9A37062F494.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.48.04:968][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.50.05:585][538]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.50.06:182][554]LogSavePackage: Save=141.59ms
+[2017.04.28-02.50.06:182][554]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu46547FDA4FBFF3FF59B9799D8532F516.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.50.06:189][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.50.38:757][611]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.50.39:426][632]LogSavePackage: Save=136.51ms
+[2017.04.28-02.50.39:426][632]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu41210D174B1F7281CACA3CAAE37A9E4C.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.50.39:432][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.52.12:099][572]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.52.12:697][588]LogSavePackage: Save=57.45ms
+[2017.04.28-02.52.12:697][588]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuBA30731D4FD1BBB92A42409F73C6657E.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.52.12:704][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.53.53:961][957]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.53.54:625][977]LogSavePackage: Save=135.77ms
+[2017.04.28-02.53.54:625][977]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu6758E0884653942BC822CA81C47C15DD.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.53.54:633][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.54.51:510][610]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.54.52:082][624]LogSavePackage: Save=143.10ms
+[2017.04.28-02.54.52:082][624]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu50FA96A24687A54CED488FB875B4FC55.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.54.52:089][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.55.55:118][ 65]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.55.55:691][ 84]LogSavePackage: Save=58.72ms
+[2017.04.28-02.55.55:691][ 84]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuFB29243E4FCE22B6F353B4B47BDC9D83.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.55.55:696][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.57.04:305][440]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.57.04:977][460]LogSavePackage: Save=55.67ms
+[2017.04.28-02.57.04:977][460]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu2E58486B46B33DE774DA6289711BF140.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.57.04:980][460]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.57.40:584][500]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.57.41:674][543]LogSavePackage: Save=55.47ms
+[2017.04.28-02.57.41:674][543]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu9DCE32CE43B8CB565FED4183165D5A57.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.57.41:680][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.57.59:228][ 36]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.57.59:917][ 60]LogSavePackage: Save=58.42ms
+[2017.04.28-02.57.59:917][ 60]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuCF3D5EF04D53B172F7B777AF0AA52B30.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.57.59:923][ 60]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.58.08:508][566]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.58.09:059][584]LogSavePackage: Save=58.92ms
+[2017.04.28-02.58.09:059][584]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu9B51D1814B5E89EA28A438AA68CFE71A.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.58.09:067][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.58.32:599][270]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.58.33:421][296]LogSavePackage: Save=141.64ms
+[2017.04.28-02.58.33:421][296]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuE28F938943ADB27F3FF918BD621435FF.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.58.33:427][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-02.59.53:398][489]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-02.59.54:087][510]LogSavePackage: Save=142.80ms
+[2017.04.28-02.59.54:087][510]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenu3C159AB84DE7CA9AF4ED2597082D6F09.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-02.59.54:094][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
+[2017.04.28-03.06.44:391][953]BlueprintLog: New page: Compile ServerMenu
+[2017.04.28-03.06.45:098][973]LogSavePackage: Save=71.77ms
+[2017.04.28-03.06.45:098][973]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ServerMenuAE690856471DCB6430ACAE9322E2C862.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset'
+[2017.04.28-03.06.45:103][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/Menus/ServerMenu.uasset
