@@ -1,0 +1,1190 @@
+﻿Log file open, 04/25/17 21:44:26
+LogInit:Display: Running engine for game: FinalProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-29643) SRandInit(-29643).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074312
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Keyyva/Programs/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.26-01.44.27:431][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-01.44.27:431][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.26-01.44.27:441][  0]LogInit: Computer: KEYYVA-PREDATOR
+[2017.04.26-01.44.27:441][  0]LogInit: User: Keyyva
+[2017.04.26-01.44.27:441][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.26-01.44.27:441][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.04.26-01.44.27:441][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.26-01.44.27:441][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.26-01.44.27:441][  0]LogMemory: Process Physical Memory: 265.14 MB used, 265.14 MB peak
+[2017.04.26-01.44.27:441][  0]LogMemory: Process Virtual Memory: 262.82 MB used, 262.82 MB peak
+[2017.04.26-01.44.27:441][  0]LogMemory: Physical Memory: 4304.00 MB used,  11993.79 MB free, 16297.78 MB total
+[2017.04.26-01.44.27:441][  0]LogMemory: Virtual Memory: 666.34 MB used,  11993.79 MB free, 134217728.00 MB total
+[2017.04.26-01.44.27:931][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2017.04.26-01.44.28:685][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.26-01.44.28:740][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.04.26-01.44.28:740][  0]LogD3D11RHI:       3038/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.26-01.44.28:746][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.26-01.44.28:746][  0]LogD3D11RHI:       128/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.26-01.44.28:748][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.26-01.44.28:748][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.26-01.44.28:748][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.26-01.44.28:752][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.26-01.44.28:752][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.26-01.44.28:752][  0]LogWindows: EnumDisplayDevices:
+[2017.04.26-01.44.28:752][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.04.26-01.44.28:752][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.26-01.44.28:752][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.26-01.44.28:753][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.04.26-01.44.28:753][  0]LogWindows:    4. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.04.26-01.44.28:753][  0]LogWindows:    5. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.04.26-01.44.28:753][  0]LogWindows:    6. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.04.26-01.44.28:753][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.26-01.44.28:753][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.04.26-01.44.28:753][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.04.26-01.44.28:753][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.04.26-01.44.28:753][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.26-01.44.28:779][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.26-01.44.28:791][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.26-01.44.28:792][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Intermediate/Shaders/WorkingDirectory/4668/).
+[2017.04.26-01.44.28:792][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Keyyva/AppData/Local/Temp/UnrealShaderWorkingDir/BB24599149FB3DAC9BDE49973E69B42C/'.
+[2017.04.26-01.44.28:792][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.26-01.44.29:905][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.26-01.44.29:972][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.26-01.44.30:042][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.26-01.44.30:985][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.26-01.44.31:601][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.26-01.44.31:672][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.26-01.44.31:741][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.26-01.44.31:807][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.26-01.44.31:866][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.26-01.44.31:930][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.26-01.44.31:998][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.26-01.44.32:061][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.26-01.44.32:130][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.26-01.44.32:199][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.26-01.44.32:268][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.26-01.44.32:400][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.26-01.44.32:400][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.26-01.44.32:450][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.26-01.44.32:571][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.26-01.44.32:613][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.26-01.44.32:682][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.26-01.44.32:760][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.26-01.44.32:831][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.26-01.44.32:904][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.26-01.44.32:904][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.26-01.44.33:483][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.26-01.44.33:529][  0]LogDerivedDataCache: Loaded boot cache 0.05s 51MB C:/Users/Keyyva/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-01.44.33:529][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Keyyva/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.26-01.44.33:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.26-01.44.33:530][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.26-01.44.33:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.26-01.44.33:530][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.26-01.44.33:551][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.26-01.44.33:565][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Keyyva/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.26-01.44.33:572][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.26-01.44.33:573][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-01.44.33:573][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-01.44.33:842][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-01.44.33:844][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.26-01.44.34:096][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.26-01.44.34:158][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.26-01.44.34:222][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.26-01.44.34:222][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.26-01.44.34:222][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.26-01.44.35:021][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: finalproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3356675869
+[2017.04.26-01.44.35:074][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.04.26-01.44.35:149][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.047546 seconds
+[2017.04.26-01.44.35:154][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.04.26-01.44.35:154][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.04.26-01.44.35:154][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.26-01.44.35:241][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.26-01.44.37:276][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.26-01.44.37:324][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.26-01.44.37:876][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.26-01.44.38:355][  0]SourceControl: Info Source control is disabled
+[2017.04.26-01.44.38:356][  0]SourceControl: Info Source control is disabled
+[2017.04.26-01.44.38:420][  0]SourceControl: Info Source control is disabled
+[2017.04.26-01.44.38:479][  0]SourceControl: Info Source control is disabled
+[2017.04.26-01.44.40:015][  0]LogEngine: Initializing Engine...
+[2017.04.26-01.44.40:016][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.26-01.44.40:295][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.26-01.44.40:303][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-01.44.40:331][  0]LogInit: FAudioDevice initialized.
+[2017.04.26-01.44.40:354][  0]LogDerivedDataCache: Saved boot cache 0.02s 51MB C:/Users/Keyyva/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-01.44.40:360][  0]LogInit: Texture streaming: Enabled
+[2017.04.26-01.44.40:475][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.26-01.44.40:583][  0]LogInit: Transaction tracking system initialized
+[2017.04.26-01.44.41:029][  0]BlueprintLog: New page: Editor Load
+[2017.04.26-01.44.42:153][  0]LocalizationService: Info Localization service is disabled
+[2017.04.26-01.44.42:998][  0]LogConsoleResponse:Display: 
+[2017.04.26-01.44.43:136][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.26-01.44.43:136][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.26-01.44.44:083][  0]LogFileCache: Scanning file cache for directory 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/' took 0.02s
+[2017.04.26-01.44.44:449][  0]SourceControl: Info Source control is disabled
+[2017.04.26-01.44.44:449][  0]LightingResults: New page: Lighting Build
+[2017.04.26-01.44.44:502][  0]MapCheck: New page: Map Check
+[2017.04.26-01.44.44:502][  0]LightingResults: New page: Lighting Build
+[2017.04.26-01.44.45:135][  0]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-01.44.45:157][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-01.44.45:158][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-01.44.45:223][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.696ms to complete.
+[2017.04.26-01.44.45:223][  0]LogFileHelpers: Loading map 'Benoit_Isaacs_multiplayer' took 0.774
+[2017.04.26-01.44.45:279][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.26-01.44.45:326][  0]LogCollectionManager: Loaded 0 collections in 0.000998 seconds
+[2017.04.26-01.44.45:420][  0]LogFileCache: Scanning file cache for directory 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Collections/' took 0.01s
+[2017.04.26-01.44.45:420][  0]LogFileCache: Scanning file cache for directory 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/Developers/Keyyva/Collections/' took 0.01s
+[2017.04.26-01.44.45:420][  0]LogFileCache: Scanning file cache for directory 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/Collections/' took 0.01s
+[2017.04.26-01.44.45:420][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.26-01.44.45:428][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2244 classes and 450 folders.
+[2017.04.26-01.44.45:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.26-01.44.45:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.26-01.44.45:514][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.04.26-01.44.45:573][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.04.26-01.44.45:706][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.26-01.44.45:821][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.26-01.44.45:830][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.26-01.44.45:910][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.26-01.44.45:911][  0]LogLoad: (Engine Initialization) Total time: 22.88 seconds
+[2017.04.26-01.44.45:911][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.04.26-01.44.45:911][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.26-01.44.45:911][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.26-01.44.45:928][  0]LogOcInput: OculusInput pre-init called
+[2017.04.26-01.44.45:950][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.26-01.44.45:952][  0]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-01.44.45:955][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.26-01.44.45:957][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.26-01.44.45:992][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-01.44.46:129][  0]LogRenderer: Reallocating scene render targets to support 1168x924 NumSamples 1 (Frame:2).
+[2017.04.26-01.44.46:217][  1]LogAssetRegistry: Asset discovery search completed in 11.1651 seconds
+[2017.04.26-01.44.46:217][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.04.26-01.44.46:217][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.04.26-01.44.46:969][ 41]LogSlate: Took 0.000519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-01.45.01:684][924]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-01.45.01:782][924]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-01.45.01:782][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-01.45.01:782][924]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 5:45:01 PM)
+[2017.04.26-01.45.01:782][924]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-01.45.01:820][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037595s)
+[2017.04.26-01.45.01:820][924]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-01.45.01:821][924]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2017.04.26-01.45.01:821][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.038874s)
+[2017.04.26-01.45.01:842][924]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-01.45.01:850][924]LogInit: FAudioDevice initialized.
+[2017.04.26-01.45.01:904][924]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-01.45.01:909][924]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-21.45.01
+[2017.04.26-01.45.01:910][924]LogWorld: Bringing up level for play took: 0.003198
+[2017.04.26-01.45.01:967][924]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.04.26-01.45.01:968][924]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.235
+[2017.04.26-01.45.01:969][924]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-01.45.10:669][437]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-01.45.10:702][437]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-01.48.32:872][940]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.04.26-01.48.34:935][ 59]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter2)
+[2017.04.26-01.48.38:068][239]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.04.26-01.48.39:909][345]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-01.48.40:006][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-01.48.40:007][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-01.48.40:007][345]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 5:48:40 PM)
+[2017.04.26-01.48.40:007][345]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-01.48.40:043][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036121s)
+[2017.04.26-01.48.40:045][345]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-01.48.40:045][345]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2017.04.26-01.48.40:045][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.038368s)
+[2017.04.26-01.48.40:062][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-01.48.40:069][345]LogInit: FAudioDevice initialized.
+[2017.04.26-01.48.40:102][345]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-01.48.40:107][345]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-21.48.40
+[2017.04.26-01.48.40:146][345]LogWorld: Bringing up level for play took: 0.042120
+[2017.04.26-01.48.40:148][345]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.414
+[2017.04.26-01.48.40:148][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-01.48.41:926][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-01.48.41:978][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-01.54.57:333][710]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-01.54.57:626][710]LogSavePackage: Save=224.83ms
+[2017.04.26-01.54.57:626][710]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_Auto14814265C42AF3CD1828E89A75FB7B27F.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_Auto1.umap'
+[2017.04.26-01.54.57:656][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_Auto1.umap
+[2017.04.26-01.54.57:659][710]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.289
+[2017.04.26-01.54.57:659][710]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.289
+[2017.04.26-02.14.30:664][536]LogSavePackage: Save=205.30ms
+[2017.04.26-02.14.30:664][536]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer184097B244A11AA9FE230A9308383947.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.14.30:673][536]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.14.30:699][536]LogFileHelpers: Saving map 'Benoit_Isaacs_multiplayer' took 4.344
+[2017.04.26-02.14.34:425][712]LogSlate: Took 0.009570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-02.14.36:206][712]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.04.26-02.14.37:907][712]LogSlate: Took 0.041592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.26-02.14.38:458][713]LogSlate: Took 0.008651 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.26-02.16.24:732][202]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.16.25:717][224]LogSavePackage: Save=66.51ms
+[2017.04.26-02.16.25:717][224]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterA2E2713246961BB9223615836A5F5FC9.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.16.25:724][224]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.22.56:784][177]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FinalProject
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display: CWD: D:\Keyyva\Programs\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display: Initial Dir: D:\Keyyva\Programs\Epic Games\UE_4.15
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display: Env CWD: D:\Keyyva\Programs\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display: BranchPath = KEYYVA-PREDATOR/D/Keyyva/Programs/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = KEYYVA-PREDATOR/D/Keyyva/Programs/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Keyyva\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.04.26-02.22.56:784][177]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.04.26-02.22.56:784][177]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.04.26-02.23.18:179][372]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.04.26-02.23.18:230][373]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FinalProject
+
+[2017.04.26-02.23.18:230][373]LogTemp:Display: CWD: D:\Keyyva\Programs\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.26-02.23.18:230][373]LogTemp:Display: Initial Dir: D:\Keyyva\Programs\Epic Games\UE_4.15
+
+[2017.04.26-02.23.18:230][373]LogTemp:Display: Env CWD: D:\Keyyva\Programs\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.26-02.23.18:230][373]LogTemp:Display: BranchPath = KEYYVA-PREDATOR/D/Keyyva/Programs/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = KEYYVA-PREDATOR/D/Keyyva/Programs/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.04.26-02.23.18:244][374]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Keyyva\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.04.26-02.23.18:244][374]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.04.26-02.23.18:244][374]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.04.26-02.23.18:244][374]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.04.26-02.23.18:244][374]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.04.26-02.23.18:244][374]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.04.26-02.24.54:283][737]LogSavePackage: Save=229.55ms
+[2017.04.26-02.24.54:283][737]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_Auto243EC899A4002C6771CE8719749AB644A.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_Auto2.umap'
+[2017.04.26-02.24.54:288][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_Auto2.umap
+[2017.04.26-02.24.54:290][737]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.306
+[2017.04.26-02.24.54:290][737]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.306
+[2017.04.26-02.24.54:335][737]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2017.04.26-02.24.54:366][737]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2017.04.26-02.24.54:366][737]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2017.04.26-02.24.54:447][737]LogSavePackage: Save=72.51ms
+[2017.04.26-02.24.54:447][737]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter_Auto2FDC2EF634EBC7DA807B7E3AF56156C8F.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2017.04.26-02.24.54:451][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset
+[2017.04.26-02.24.54:451][737]LogFileHelpers: Auto-saving content packages took 0.159
+[2017.04.26-02.28.24:663][476]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.28.25:704][490]LogSavePackage: Save=48.29ms
+[2017.04.26-02.28.25:704][490]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter7E5433DF48FB2BFE051AF08BBB2CD354.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.28.25:711][490]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.28.27:438][576]LogSavePackage: Save=233.62ms
+[2017.04.26-02.28.27:438][576]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer4B21E31C49F929D9ED373BBD7D3C8AF9.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.28.27:446][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.28.27:844][576]LogSavePackage: Save=106.36ms
+[2017.04.26-02.28.27:844][576]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltDataC79C64204183C2721C6A5C81F04F358D.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.28.27:849][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-02.28.28:170][590]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.28.28:183][590]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.28.28:183][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.28.28:183][590]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:28:28 PM)
+[2017.04.26-02.28.28:183][590]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.28.28:227][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044077s)
+[2017.04.26-02.28.28:228][590]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.28.28:229][590]LogPlayLevel: PIE: World Init took: (0.001463s)
+[2017.04.26-02.28.28:229][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.045873s)
+[2017.04.26-02.28.28:264][590]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.28.28:273][590]LogInit: FAudioDevice initialized.
+[2017.04.26-02.28.28:328][590]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.28.28:333][590]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.28.28
+[2017.04.26-02.28.28:334][590]LogWorld: Bringing up level for play took: 0.004013
+[2017.04.26-02.28.28:335][590]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.602
+[2017.04.26-02.28.28:336][590]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.28.55:859][221]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.28.56:003][221]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.29.35:962][136]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.29.36:804][153]LogSavePackage: Save=48.04ms
+[2017.04.26-02.29.36:804][153]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterDC6807B04EC30113431062AC1A2D6BB4.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.29.36:812][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.29.38:187][218]LogSavePackage: Save=238.68ms
+[2017.04.26-02.29.38:187][218]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer91BD86924278C76E0E84F9B43090DA3D.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.29.38:195][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.29.38:349][218]LogSavePackage: Save=120.48ms
+[2017.04.26-02.29.38:349][218]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData6BC5E74E4C382A40BB88E1B771374D24.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.29.38:354][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-02.29.38:736][234]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.29.38:748][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.29.38:748][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.29.38:748][234]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:29:38 PM)
+[2017.04.26-02.29.38:748][234]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.29.38:780][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031321s)
+[2017.04.26-02.29.38:780][234]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.29.38:781][234]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.04.26-02.29.38:781][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.032336s)
+[2017.04.26-02.29.38:800][234]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.29.38:807][234]LogInit: FAudioDevice initialized.
+[2017.04.26-02.29.38:840][234]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.29.38:845][234]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.29.38
+[2017.04.26-02.29.38:846][234]LogWorld: Bringing up level for play took: 0.003687
+[2017.04.26-02.29.38:865][234]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.869
+[2017.04.26-02.29.38:865][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.30.07:648][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.30.07:713][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.30.24:565][746]LogSavePackage: Save=42.10ms
+[2017.04.26-02.30.24:565][746]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter286975394C90974A29D0719A76627C6A.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.30.24:572][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.30.25:657][810]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.30.25:670][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.30.25:670][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.30.25:670][810]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:30:25 PM)
+[2017.04.26-02.30.25:670][810]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.30.25:700][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029517s)
+[2017.04.26-02.30.25:700][810]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.30.25:701][810]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.04.26-02.30.25:701][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.030605s)
+[2017.04.26-02.30.25:719][810]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.30.25:726][810]LogInit: FAudioDevice initialized.
+[2017.04.26-02.30.25:758][810]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.30.25:762][810]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.30.25
+[2017.04.26-02.30.25:763][810]LogWorld: Bringing up level for play took: 0.003433
+[2017.04.26-02.30.25:765][810]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.031
+[2017.04.26-02.30.25:765][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.30.27:744][926]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.30.27:803][926]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.32.45:733][ 80]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.32.46:743][107]LogSavePackage: Save=55.39ms
+[2017.04.26-02.32.46:744][107]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterE872635F4832E4D41B01E48515F1389D.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.32.46:750][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.34.35:475][999]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.34.36:649][ 32]LogSavePackage: Save=52.44ms
+[2017.04.26-02.34.36:649][ 32]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter992E482F4B6E1C266FD5A88049E47EEA.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.34.36:662][ 32]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.34.39:849][205]LogSavePackage: Save=235.37ms
+[2017.04.26-02.34.39:849][205]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer0F1D97B74F0FDA4C17B82788CEDE954B.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.34.39:857][205]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.34.39:969][205]LogSavePackage: Save=76.51ms
+[2017.04.26-02.34.39:969][205]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData8FC7A702473D0CC7EF99638A0995AB0D.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.34.39:973][205]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-02.34.40:344][224]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.34.40:357][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.34.40:357][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.34.40:357][224]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:34:40 PM)
+[2017.04.26-02.34.40:358][224]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.34.40:390][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031831s)
+[2017.04.26-02.34.40:391][224]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.34.40:391][224]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2017.04.26-02.34.40:391][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.033064s)
+[2017.04.26-02.34.40:411][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.34.40:421][224]LogInit: FAudioDevice initialized.
+[2017.04.26-02.34.40:454][224]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.34.40:459][224]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.34.40
+[2017.04.26-02.34.40:459][224]LogWorld: Bringing up level for play took: 0.003510
+[2017.04.26-02.34.40:461][224]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.727
+[2017.04.26-02.34.40:461][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.35.05:727][723]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.35.05:789][723]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.35.22:678][713]LogEditorTransaction: Undo Break Pin Links
+[2017.04.26-02.35.23:597][753]LogEditorTransaction: Undo Break Pin Links
+[2017.04.26-02.36.00:242][922]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.36.01:139][943]LogSavePackage: Save=54.93ms
+[2017.04.26-02.36.01:139][943]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter458F84654A83678DD0EDEF907601E3BB.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.36.01:146][943]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.36.02:765][ 21]LogSavePackage: Save=244.05ms
+[2017.04.26-02.36.02:765][ 21]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer3DCCA4DE438141952774ECAE55DA9FC3.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.36.02:774][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.36.02:885][ 21]LogSavePackage: Save=77.40ms
+[2017.04.26-02.36.02:885][ 21]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltDataFE4219024E4033E67AD3CABD5AB4F82F.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.36.02:889][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-02.36.03:531][ 56]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.36.03:543][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.36.03:543][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.36.03:543][ 56]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:36:03 PM)
+[2017.04.26-02.36.03:543][ 56]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.36.03:576][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031889s)
+[2017.04.26-02.36.03:576][ 56]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.36.03:577][ 56]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2017.04.26-02.36.03:577][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.033105s)
+[2017.04.26-02.36.03:597][ 56]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.36.03:604][ 56]LogInit: FAudioDevice initialized.
+[2017.04.26-02.36.03:634][ 56]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.36.03:638][ 56]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.36.03
+[2017.04.26-02.36.03:639][ 56]LogWorld: Bringing up level for play took: 0.003419
+[2017.04.26-02.36.03:640][ 56]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.094
+[2017.04.26-02.36.03:641][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.36.48:639][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.36.48:708][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.37.25:027][754]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.37.25:893][780]LogSavePackage: Save=58.62ms
+[2017.04.26-02.37.25:893][780]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter57BD572D4482CEF3E0B317BC92DADE0C.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.37.25:902][780]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.38.26:435][439]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.38.27:159][458]LogSavePackage: Save=53.34ms
+[2017.04.26-02.38.27:159][458]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter4C0BF9B74B0FF2504438FBBD31332B16.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.38.27:166][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.38.28:666][531]LogSavePackage: Save=231.78ms
+[2017.04.26-02.38.28:666][531]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayerFABB3F17400D0C91E03061A8F510006F.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.38.28:673][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.38.28:783][531]LogSavePackage: Save=76.03ms
+[2017.04.26-02.38.28:783][531]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData70D60F97470231962EDE018D010FFA4F.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.38.28:787][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-02.38.29:126][549]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.38.29:138][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.38.29:138][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.38.29:138][549]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:38:29 PM)
+[2017.04.26-02.38.29:138][549]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.38.29:170][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032161s)
+[2017.04.26-02.38.29:171][549]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.38.29:171][549]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2017.04.26-02.38.29:171][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.033380s)
+[2017.04.26-02.38.29:191][549]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.38.29:198][549]LogInit: FAudioDevice initialized.
+[2017.04.26-02.38.29:228][549]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.38.29:233][549]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.38.29
+[2017.04.26-02.38.29:233][549]LogWorld: Bringing up level for play took: 0.003828
+[2017.04.26-02.38.29:235][549]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.499
+[2017.04.26-02.38.29:235][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.38.29:619][567]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 
+[2017.04.26-02.38.30:389][613]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 
+[2017.04.26-02.38.31:840][700]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.32:489][739]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 
+[2017.04.26-02.38.34:573][864]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 
+[2017.04.26-02.38.35:756][935]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 
+[2017.04.26-02.38.36:406][974]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 
+[2017.04.26-02.38.36:840][  0]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 
+[2017.04.26-02.38.37:639][ 48]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.38:490][ 99]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.39:607][166]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.40:390][213]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.40:840][240]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.41:257][265]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.41:606][286]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.42:257][325]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.42:674][350]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Landscape1
+[2017.04.26-02.38.43:507][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.38.43:570][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.38.49:530][736]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.38.50:317][760]LogSavePackage: Save=51.69ms
+[2017.04.26-02.38.50:317][760]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterEEC59ED54A853F295D07E58611BA3E4D.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.38.50:325][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.42.53:143][781]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.42.53:161][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.42.53:161][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.42.53:161][781]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:42:53 PM)
+[2017.04.26-02.42.53:162][781]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.42.53:197][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035507s)
+[2017.04.26-02.42.53:198][781]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.42.53:198][781]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2017.04.26-02.42.53:198][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.036928s)
+[2017.04.26-02.42.53:223][781]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.42.53:232][781]LogInit: FAudioDevice initialized.
+[2017.04.26-02.42.53:556][781]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.42.53:562][781]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.42.53
+[2017.04.26-02.42.53:563][781]LogWorld: Bringing up level for play took: 0.005020
+[2017.04.26-02.42.53:569][781]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.165
+[2017.04.26-02.42.53:569][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.42.53:631][781]LogRenderer: Reallocating scene render targets to support 1292x924 NumSamples 1 (Frame:19817).
+[2017.04.26-02.42.53:704][782]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.083053 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
+[2017.04.26-02.43.06:748][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.43.06:961][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.48.57:204][ 99]LogSavePackage: Save=245.87ms
+[2017.04.26-02.48.57:205][ 99]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_Auto3A217FB95482D82B1E4E65993C1BAA275.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_Auto3.umap'
+[2017.04.26-02.48.57:210][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_Auto3.umap
+[2017.04.26-02.48.57:213][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.324
+[2017.04.26-02.48.57:213][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.324
+[2017.04.26-02.54.48:503][141]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.54.49:572][161]LogSavePackage: Save=54.75ms
+[2017.04.26-02.54.49:572][161]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter940E2998441F1AB024315BBAB574D60B.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.54.49:580][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.54.52:421][314]LogSavePackage: Save=225.26ms
+[2017.04.26-02.54.52:421][314]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer259595364D084EF78D8FC5BC6D4B7A6B.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.54.52:430][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.54.52:540][314]LogSavePackage: Save=73.18ms
+[2017.04.26-02.54.52:540][314]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltDataA71102E54B6C8E8C5F28F586B4228B66.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.54.52:543][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-02.54.53:315][356]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.54.53:344][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.54.53:344][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.54.53:345][356]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:54:53 PM)
+[2017.04.26-02.54.53:345][356]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.54.53:380][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035331s)
+[2017.04.26-02.54.53:381][356]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.54.53:381][356]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2017.04.26-02.54.53:381][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.036849s)
+[2017.04.26-02.54.53:400][356]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.54.53:408][356]LogInit: FAudioDevice initialized.
+[2017.04.26-02.54.53:442][356]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.54.53:447][356]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.54.53
+[2017.04.26-02.54.53:448][356]LogWorld: Bringing up level for play took: 0.003980
+[2017.04.26-02.54.53:450][356]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.284
+[2017.04.26-02.54.53:450][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.55.01:449][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.55.01:513][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.56.41:672][494]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.56.42:399][513]LogSavePackage: Save=52.72ms
+[2017.04.26-02.56.42:399][513]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter90C2DAC442B2F1BA9A4B81AD233BF8FC.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.56.42:407][513]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.56.43:752][576]LogSavePackage: Save=238.03ms
+[2017.04.26-02.56.43:752][576]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayerB977604A4E1121431B053DB625B5980E.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.56.43:760][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.56.43:870][576]LogSavePackage: Save=74.92ms
+[2017.04.26-02.56.43:870][576]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData6E1E5B86467D4B8055F278BA176DABB3.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.56.43:874][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-02.56.44:223][589]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.56.44:236][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.56.44:236][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.56.44:236][589]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:56:44 PM)
+[2017.04.26-02.56.44:236][589]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.56.44:266][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029890s)
+[2017.04.26-02.56.44:267][589]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.56.44:267][589]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2017.04.26-02.56.44:267][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.031173s)
+[2017.04.26-02.56.44:288][589]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.56.44:295][589]LogInit: FAudioDevice initialized.
+[2017.04.26-02.56.44:328][589]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.56.44:333][589]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.56.44
+[2017.04.26-02.56.44:334][589]LogWorld: Bringing up level for play took: 0.003658
+[2017.04.26-02.56.44:335][589]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.602
+[2017.04.26-02.56.44:336][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.56.50:797][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.56.50:860][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.57.54:824][675]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.57.56:182][696]LogSavePackage: Save=648.45ms
+[2017.04.26-02.57.56:185][696]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterD914F3CA4864E2D3F81395955BE32C7D.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.57.56:192][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.57.59:182][857]LogSavePackage: Save=244.36ms
+[2017.04.26-02.57.59:182][857]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer0D2EF60C4D46142EDB0BE983A6DD49BB.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.57.59:190][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.57.59:301][857]LogSavePackage: Save=76.33ms
+[2017.04.26-02.57.59:301][857]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData544F4715421EDBD8553D3E902BE27814.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.57.59:305][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-02.58.03:551][ 99]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-02.58.03:650][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.58.03:650][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-02.58.03:650][ 99]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 6:58:03 PM)
+[2017.04.26-02.58.03:650][ 99]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-02.58.03:680][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030121s)
+[2017.04.26-02.58.03:681][ 99]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-02.58.03:681][ 99]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2017.04.26-02.58.03:681][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.031234s)
+[2017.04.26-02.58.03:705][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-02.58.03:713][ 99]LogInit: FAudioDevice initialized.
+[2017.04.26-02.58.03:744][ 99]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-02.58.03:748][ 99]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-22.58.03
+[2017.04.26-02.58.03:749][ 99]LogWorld: Bringing up level for play took: 0.003291
+[2017.04.26-02.58.03:750][ 99]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.016
+[2017.04.26-02.58.03:750][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.58.26:371][446]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.58.26:433][446]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-02.59.54:447][589]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-02.59.55:289][612]LogSavePackage: Save=58.41ms
+[2017.04.26-02.59.55:289][612]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterB980C51740837F77FDA01DB77F873301.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-02.59.55:296][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-02.59.57:512][700]LogSavePackage: Save=242.16ms
+[2017.04.26-02.59.57:512][700]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayerDE7DB3BF45EBA70ACD799B975243171D.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-02.59.57:519][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-02.59.57:632][700]LogSavePackage: Save=73.75ms
+[2017.04.26-02.59.57:632][700]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltDataA4F983DB4143489B549B9C9653C0C592.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-02.59.57:636][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-03.01.10:204][961]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-03.01.11:001][978]LogSavePackage: Save=56.88ms
+[2017.04.26-03.01.11:002][978]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterFDFF202A4B52AB70931E578ADB49FAC2.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-03.01.11:009][978]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-03.01.12:320][ 39]LogSavePackage: Save=234.70ms
+[2017.04.26-03.01.12:320][ 39]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer77787FCA4DD7E52D165220A1DC8CC36C.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-03.01.12:327][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-03.01.12:437][ 39]LogSavePackage: Save=76.28ms
+[2017.04.26-03.01.12:437][ 39]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltDataAEBD1C4F4EBD8DB71184449F47EB841B.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-03.01.12:441][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-03.01.12:837][ 59]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.01.12:849][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.12:849][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.01.12:849][ 59]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:01:12 PM)
+[2017.04.26-03.01.12:849][ 59]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.01.12:875][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026242s)
+[2017.04.26-03.01.12:876][ 59]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.01.12:876][ 59]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2017.04.26-03.01.12:876][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.027357s)
+[2017.04.26-03.01.12:894][ 59]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.01.12:903][ 59]LogInit: FAudioDevice initialized.
+[2017.04.26-03.01.12:936][ 59]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.01.12:941][ 59]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.01.12
+[2017.04.26-03.01.12:942][ 59]LogWorld: Bringing up level for play took: 0.003879
+[2017.04.26-03.01.12:944][ 59]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.79
+[2017.04.26-03.01.12:944][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.19:555][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.19:618][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.27:784][911]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-03.01.28:580][932]LogSavePackage: Save=58.36ms
+[2017.04.26-03.01.28:580][932]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter787A5C814541F4F079F501B351514A04.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-03.01.28:588][932]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-03.01.29:896][  7]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.01.29:909][  7]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.29:909][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.01.29:909][  7]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:01:29 PM)
+[2017.04.26-03.01.29:909][  7]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.01.29:938][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029118s)
+[2017.04.26-03.01.29:939][  7]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.01.29:939][  7]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2017.04.26-03.01.29:939][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.030404s)
+[2017.04.26-03.01.29:960][  7]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.01.29:968][  7]LogInit: FAudioDevice initialized.
+[2017.04.26-03.01.29:999][  7]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.01.30:003][  7]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.01.30
+[2017.04.26-03.01.30:004][  7]LogWorld: Bringing up level for play took: 0.003500
+[2017.04.26-03.01.30:006][  7]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.272
+[2017.04.26-03.01.30:006][  7]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.33:651][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.33:715][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.34:697][271]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.01.34:710][271]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.34:710][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.01.34:710][271]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:01:34 PM)
+[2017.04.26-03.01.34:710][271]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.01.34:740][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030541s)
+[2017.04.26-03.01.34:741][271]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.01.34:741][271]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2017.04.26-03.01.34:742][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.031881s)
+[2017.04.26-03.01.34:760][271]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.01.34:768][271]LogInit: FAudioDevice initialized.
+[2017.04.26-03.01.34:798][271]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.01.34:803][271]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.01.34
+[2017.04.26-03.01.34:804][271]LogWorld: Bringing up level for play took: 0.003836
+[2017.04.26-03.01.34:805][271]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 1.072
+[2017.04.26-03.01.34:806][271]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.40:822][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.40:878][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.01.42:235][684]LogSavePackage: Save=221.97ms
+[2017.04.26-03.01.42:235][684]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer6E6800704F6E8AEF8A1E788217D3B4DF.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-03.01.42:243][684]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-03.01.42:350][684]LogSavePackage: Save=74.34ms
+[2017.04.26-03.01.42:350][684]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData344C63ED40B0B88918B95DBF38CA6B83.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-03.01.42:354][684]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-03.01.59:117][664]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-03.02.00:336][707]LogSavePackage: Save=61.22ms
+[2017.04.26-03.02.00:336][707]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterD1CD5CAE414886E91A38478F44AC4334.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-03.02.00:345][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-03.02.02:230][798]LogSavePackage: Save=327.13ms
+[2017.04.26-03.02.02:230][798]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayerC059842F44BB7EAAB93D5B9B8BACA041.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-03.02.02:237][798]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-03.02.02:347][798]LogSavePackage: Save=75.82ms
+[2017.04.26-03.02.02:347][798]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltDataB1EB6DD341F8E397B3A9B3813348B7D1.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-03.02.02:351][798]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-03.02.05:988][ 10]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.02.06:000][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.02.06:000][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.02.06:000][ 10]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:02:06 PM)
+[2017.04.26-03.02.06:000][ 10]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.02.06:030][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029318s)
+[2017.04.26-03.02.06:030][ 10]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.02.06:030][ 10]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2017.04.26-03.02.06:031][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.030458s)
+[2017.04.26-03.02.06:050][ 10]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.02.06:057][ 10]LogInit: FAudioDevice initialized.
+[2017.04.26-03.02.06:087][ 10]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.02.06:092][ 10]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.02.06
+[2017.04.26-03.02.06:093][ 10]LogWorld: Bringing up level for play took: 0.003976
+[2017.04.26-03.02.06:094][ 10]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.361
+[2017.04.26-03.02.06:094][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.02.22:956][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.02.23:019][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.02.50:771][630]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-03.02.51:349][637]LogSavePackage: Save=57.30ms
+[2017.04.26-03.02.51:349][637]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterFFDA9E4B4C8348DC65429BA0138F29FC.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-03.02.51:357][637]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-03.02.53:268][734]LogSavePackage: Save=234.76ms
+[2017.04.26-03.02.53:268][734]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer95AEF01245009FFB9A88AEAD42A234A1.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-03.02.53:275][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-03.02.53:384][734]LogSavePackage: Save=75.73ms
+[2017.04.26-03.02.53:384][734]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData61105BDD492B0284996F99B7D24D28A0.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-03.02.53:388][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-03.02.58:014][921]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.02.58:027][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.02.58:027][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.02.58:027][921]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:02:58 PM)
+[2017.04.26-03.02.58:027][921]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.02.58:055][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027692s)
+[2017.04.26-03.02.58:056][921]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.02.58:056][921]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2017.04.26-03.02.58:056][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.028879s)
+[2017.04.26-03.02.58:074][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.02.58:081][921]LogInit: FAudioDevice initialized.
+[2017.04.26-03.02.58:113][921]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.02.58:118][921]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.02.58
+[2017.04.26-03.02.58:119][921]LogWorld: Bringing up level for play took: 0.003702
+[2017.04.26-03.02.58:120][921]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.387
+[2017.04.26-03.02.58:121][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.03.56:436][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.03.56:502][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.03.57:395][440]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.03.57:409][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.03.57:409][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.03.57:409][440]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:03:57 PM)
+[2017.04.26-03.03.57:409][440]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.03.57:438][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029107s)
+[2017.04.26-03.03.57:439][440]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.03.57:439][440]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2017.04.26-03.03.57:439][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.030337s)
+[2017.04.26-03.03.57:460][440]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.03.57:470][440]LogInit: FAudioDevice initialized.
+[2017.04.26-03.03.57:500][440]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.03.57:505][440]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.03.57
+[2017.04.26-03.03.57:505][440]LogWorld: Bringing up level for play took: 0.003929
+[2017.04.26-03.03.57:507][440]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.227
+[2017.04.26-03.03.57:507][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.04.03:241][781]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.04.03:294][781]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.04.11:223][251]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.04.11:323][251]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.04.11:323][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.04.11:323][251]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:04:11 PM)
+[2017.04.26-03.04.11:323][251]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.04.11:352][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029099s)
+[2017.04.26-03.04.11:353][251]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.04.11:353][251]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2017.04.26-03.04.11:353][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.030224s)
+[2017.04.26-03.04.11:375][251]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.04.11:382][251]LogInit: FAudioDevice initialized.
+[2017.04.26-03.04.11:413][251]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.04.11:418][251]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.04.11
+[2017.04.26-03.04.11:419][251]LogWorld: Bringing up level for play took: 0.003746
+[2017.04.26-03.04.11:420][251]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.314
+[2017.04.26-03.04.11:420][251]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.04.14:766][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.04.14:823][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.05.33:565][939]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-03.05.34:488][964]LogSavePackage: Save=55.99ms
+[2017.04.26-03.05.34:488][964]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacterF63297C74C00FB6715FF3697EFF315FE.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-03.05.34:495][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-03.05.36:180][ 48]LogSavePackage: Save=234.82ms
+[2017.04.26-03.05.36:180][ 48]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer670ADD204891E4B0B67A7FB3906060A4.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-03.05.36:188][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-03.05.36:333][ 48]LogSavePackage: Save=108.21ms
+[2017.04.26-03.05.36:333][ 48]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltDataF1572FB74859344C1DBBEABD2BEDA28B.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-03.05.36:337][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-03.05.39:461][223]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.05.39:474][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.05.39:474][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.05.39:474][223]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:05:39 PM)
+[2017.04.26-03.05.39:474][223]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.05.39:502][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028513s)
+[2017.04.26-03.05.39:503][223]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.05.39:504][223]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2017.04.26-03.05.39:504][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.030099s)
+[2017.04.26-03.05.39:527][223]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.05.39:534][223]LogInit: FAudioDevice initialized.
+[2017.04.26-03.05.39:567][223]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.05.39:571][223]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.05.39
+[2017.04.26-03.05.39:572][223]LogWorld: Bringing up level for play took: 0.004193
+[2017.04.26-03.05.39:574][223]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.16
+[2017.04.26-03.05.39:575][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.05.49:754][831]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.05.49:821][831]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.04:214][666]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-03.06.04:900][676]LogSavePackage: Save=62.73ms
+[2017.04.26-03.06.04:900][676]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter83BA5A824D11ECD4C63D68AF3D5FF302.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-03.06.04:907][676]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-03.06.06:166][735]LogSavePackage: Save=234.87ms
+[2017.04.26-03.06.06:166][735]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer1F8DE6B647720C93602E3D9C0A8C30E5.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-03.06.06:174][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-03.06.06:282][735]LogSavePackage: Save=72.67ms
+[2017.04.26-03.06.06:282][735]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData1C4EFA054A472807CBD6899FA1D9C363.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-03.06.06:286][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-03.06.08:494][863]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.06.08:506][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.08:506][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.06.08:507][863]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:06:08 PM)
+[2017.04.26-03.06.08:507][863]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.06.08:536][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029366s)
+[2017.04.26-03.06.08:537][863]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.06.08:537][863]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2017.04.26-03.06.08:537][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.030553s)
+[2017.04.26-03.06.08:556][863]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.06.08:564][863]LogInit: FAudioDevice initialized.
+[2017.04.26-03.06.08:598][863]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.06.08:602][863]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.06.08
+[2017.04.26-03.06.08:603][863]LogWorld: Bringing up level for play took: 0.003869
+[2017.04.26-03.06.08:604][863]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.871
+[2017.04.26-03.06.08:605][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.12:518][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.12:582][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.13:905][168]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.06.13:922][168]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.13:922][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.06.13:922][168]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:06:13 PM)
+[2017.04.26-03.06.13:922][168]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.06.13:951][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028517s)
+[2017.04.26-03.06.13:951][168]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.06.13:952][168]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2017.04.26-03.06.13:952][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.029643s)
+[2017.04.26-03.06.13:972][168]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.06.13:980][168]LogInit: FAudioDevice initialized.
+[2017.04.26-03.06.14:011][168]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.06.14:015][168]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.06.14
+[2017.04.26-03.06.14:016][168]LogWorld: Bringing up level for play took: 0.003744
+[2017.04.26-03.06.14:018][168]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer 0.284
+[2017.04.26-03.06.14:018][168]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.17:798][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.17:855][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.25:226][808]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.04.26-03.06.25:977][824]LogSavePackage: Save=56.04ms
+[2017.04.26-03.06.25:977][824]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/ThirdPersonCharacter885D43CE4E1DA3CA5148AC8C28C1A979.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.26-03.06.25:984][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.26-03.06.27:837][914]LogSavePackage: Save=240.60ms
+[2017.04.26-03.06.27:837][914]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayerCB5B554144B7FE0DE627F4809565173E.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap'
+[2017.04.26-03.06.27:845][914]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.umap
+[2017.04.26-03.06.27:951][914]LogSavePackage: Save=72.38ms
+[2017.04.26-03.06.27:951][914]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Benoit_Isaacs_multiplayer_BuiltData7812E30A476B0EF0CF44BC8AE5834119.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset'
+[2017.04.26-03.06.27:955][914]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer_BuiltData.uasset
+[2017.04.26-03.06.31:608][123]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.06.31:634][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.31:634][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.06.31:635][123]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:06:31 PM)
+[2017.04.26-03.06.31:635][123]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.06.31:662][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026961s)
+[2017.04.26-03.06.31:662][123]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.06.31:662][123]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.04.26-03.06.31:663][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.028023s)
+[2017.04.26-03.06.31:680][123]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.06.31:688][123]LogInit: FAudioDevice initialized.
+[2017.04.26-03.06.31:718][123]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.06.31:723][123]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.06.31
+[2017.04.26-03.06.31:724][123]LogWorld: Bringing up level for play took: 0.003679
+[2017.04.26-03.06.31:726][123]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.008
+[2017.04.26-03.06.31:726][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.37:154][446]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.37:209][446]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.39:597][579]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-03.06.39:610][579]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.39:610][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-03.06.39:610][579]PIE: New page: PIE session: Benoit_Isaacs_multiplayer (Apr 25, 2017, 7:06:39 PM)
+[2017.04.26-03.06.39:610][579]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer
+[2017.04.26-03.06.39:636][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026041s)
+[2017.04.26-03.06.39:637][579]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.26-03.06.39:637][579]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2017.04.26-03.06.39:638][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer to /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer (0.027243s)
+[2017.04.26-03.06.39:658][579]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-03.06.39:665][579]LogInit: FAudioDevice initialized.
+[2017.04.26-03.06.39:700][579]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.26-03.06.39:704][579]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer up for play (max tick rate 60) at 2017.04.25-23.06.39
+[2017.04.26-03.06.39:705][579]LogWorld: Bringing up level for play took: 0.003498
+[2017.04.26-03.06.39:706][579]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Benoit_Isaacs_multiplayer -0.028
+[2017.04.26-03.06.39:707][579]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.44:501][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.44:556][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer' with GeneratedClass '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer.Benoit_Isaacs_multiplayer:PersistentLevel.Benoit_Isaacs_multiplayer'
+[2017.04.26-03.06.52:164][263]Cmd: QUIT_EDITOR
+[2017.04.26-03.06.53:090][263]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.26-03.06.53:128][263]LogExit: Preparing to exit.
+[2017.04.26-03.06.53:824][263]LogDirectoryWatcher: A directory notification for 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/' was aborted.
+[2017.04.26-03.06.53:955][263]LogExit: Editor shut down
+[2017.04.26-03.06.53:956][263]LogExit: Transaction tracking system shut down
+[2017.04.26-03.06.55:127][263]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.26-03.06.55:128][263]LogExit: Object subsystem successfully closed.
+[2017.04.26-03.06.55:486][263]LogD3D11RHI: Shutdown
+[2017.04.26-03.06.55:486][263]LogD3D11RHI: CleanupD3DDevice
+[2017.04.26-03.06.55:682][263]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.26-03.06.57:534][263]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (504)
+[2017.04.26-03.06.57:534][263]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.04.26-03.06.57:534][263]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.04.26-03.06.57:563][263]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (498)
+[2017.04.26-03.06.57:563][263]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.04.26-03.06.57:583][263]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.04.26-03.06.57:583][263]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.04.26-03.06.57:583][263]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.04.26-03.06.57:587][263]LogDirectoryWatcher: A directory notification for 'D:/Keyyva/Programs/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.26-03.06.57:602][263]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.04.26-03.06.57:602][263]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.04.26-03.06.57:602][263]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.04.26-03.06.57:622][263]LogDirectoryWatcher: A directory notification for 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/Collections/' was aborted.
+[2017.04.26-03.06.57:622][263]LogDirectoryWatcher: A directory notification for 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/Developers/Keyyva/Collections/' was aborted.
+[2017.04.26-03.06.57:622][263]LogDirectoryWatcher: A directory notification for 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Collections/' was aborted.
+[2017.04.26-03.06.57:622][263]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.04.26-03.06.57:628][263]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.04.26-03.06.57:628][263]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.04.26-03.06.57:661][263]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.04.26-03.06.57:661][263]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.04.26-03.06.57:661][263]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.04.26-03.06.57:661][263]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.04.26-03.06.57:661][263]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.04.26-03.06.57:673][263]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.04.26-03.06.57:697][263]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.04.26-03.06.57:702][263]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.04.26-03.06.57:707][263]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.04.26-03.06.57:742][263]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.04.26-03.06.57:793][263]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.04.26-03.06.57:814][263]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.04.26-03.06.57:852][263]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.04.26-03.06.57:852][263]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.04.26-03.06.57:852][263]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.04.26-03.06.57:852][263]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.04.26-03.06.57:852][263]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.04.26-03.06.57:884][263]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.04.26-03.06.57:906][263]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.04.26-03.06.57:934][263]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.04.26-03.06.57:934][263]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.04.26-03.06.57:934][263]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.04.26-03.06.57:934][263]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.04.26-03.06.57:934][263]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.04.26-03.06.58:464][263]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.04.26-03.06.58:464][263]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.04.26-03.06.58:464][263]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.04.26-03.06.58:524][263]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.04.26-03.06.58:855][263]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.04.26-03.06.58:881][263]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.04.26-03.06.58:912][263]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.04.26-03.06.58:923][263]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.04.26-03.06.58:923][263]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.04.26-03.06.58:982][263]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.04.26-03.06.59:019][263]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.04.26-03.06.59:019][263]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.04.26-03.06.59:044][263]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.04.26-03.06.59:075][263]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.04.26-03.06.59:075][263]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.04.26-03.06.59:086][263]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.04.26-03.06.59:101][263]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.04.26-03.06.59:101][263]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.04.26-03.06.59:102][263]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.04.26-03.06.59:102][263]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.04.26-03.06.59:113][263]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.04.26-03.06.59:160][263]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.04.26-03.06.59:197][263]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.04.26-03.06.59:209][263]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.04.26-03.06.59:224][263]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.04.26-03.06.59:288][263]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.04.26-03.06.59:314][263]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.04.26-03.06.59:330][263]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.04.26-03.06.59:344][263]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.04.26-03.06.59:344][263]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.04.26-03.06.59:344][263]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.04.26-03.06.59:344][263]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.04.26-03.06.59:365][263]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.04.26-03.06.59:365][263]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.04.26-03.06.59:419][263]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.04.26-03.06.59:419][263]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.04.26-03.06.59:448][263]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.04.26-03.06.59:461][263]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.04.26-03.06.59:476][263]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.04.26-03.06.59:482][263]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.04.26-03.06.59:489][263]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.04.26-03.06.59:505][263]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.04.26-03.06.59:505][263]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.04.26-03.06.59:505][263]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.04.26-03.06.59:505][263]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.04.26-03.06.59:505][263]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.04.26-03.06.59:505][263]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.04.26-03.06.59:505][263]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.04.26-03.06.59:505][263]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.04.26-03.06.59:518][263]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.04.26-03.06.59:518][263]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.04.26-03.06.59:518][263]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.04.26-03.06.59:741][263]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.04.26-03.06.59:777][263]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.04.26-03.06.59:777][263]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.04.26-03.06.59:777][263]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.04.26-03.06.59:777][263]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.04.26-03.06.59:787][263]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.04.26-03.06.59:787][263]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.04.26-03.06.59:787][263]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.04.26-03.06.59:787][263]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.04.26-03.06.59:787][263]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.04.26-03.06.59:796][263]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.04.26-03.06.59:796][263]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.04.26-03.06.59:814][263]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.04.26-03.06.59:814][263]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.04.26-03.06.59:824][263]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.04.26-03.06.59:824][263]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.04.26-03.06.59:835][263]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.04.26-03.06.59:835][263]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.04.26-03.06.59:835][263]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.04.26-03.06.59:835][263]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.04.26-03.06.59:835][263]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.04.26-03.06.59:859][263]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.04.26-03.06.59:876][263]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.04.26-03.06.59:876][263]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.04.26-03.06.59:876][263]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.04.26-03.06.59:876][263]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.04.26-03.06.59:876][263]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.04.26-03.06.59:887][263]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.04.26-03.06.59:899][263]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.04.26-03.06.59:913][263]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.04.26-03.06.59:924][263]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.04.26-03.06.59:924][263]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.04.26-03.06.59:924][263]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.04.26-03.06.59:924][263]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.04.26-03.06.59:943][263]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.04.26-03.06.59:957][263]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.04.26-03.06.59:981][263]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.04.26-03.07.00:036][263]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.04.26-03.07.00:036][263]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.04.26-03.07.00:069][263]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.04.26-03.07.00:070][263]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.04.26-03.07.00:079][263]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.04.26-03.07.00:079][263]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.04.26-03.07.00:079][263]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.04.26-03.07.00:180][263]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.04.26-03.07.00:295][263]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.04.26-03.07.00:295][263]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.04.26-03.07.00:317][263]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.04.26-03.07.00:317][263]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.04.26-03.07.00:317][263]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.04.26-03.07.00:327][263]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.04.26-03.07.00:337][263]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.04.26-03.07.00:344][263]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.04.26-03.07.00:344][263]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.04.26-03.07.00:344][263]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.04.26-03.07.00:352][263]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.04.26-03.07.00:352][263]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.04.26-03.07.00:352][263]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.04.26-03.07.00:384][263]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.04.26-03.07.00:397][263]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.04.26-03.07.00:410][263]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.04.26-03.07.00:420][263]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.04.26-03.07.00:445][263]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.04.26-03.07.00:501][263]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.04.26-03.07.00:543][263]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.04.26-03.07.00:543][263]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.04.26-03.07.00:543][263]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.04.26-03.07.00:618][263]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.04.26-03.07.00:618][263]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.04.26-03.07.00:621][263]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.04.26-03.07.00:655][263]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.04.26-03.07.00:655][263]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.04.26-03.07.00:655][263]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.04.26-03.07.00:655][263]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.04.26-03.07.00:655][263]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.04.26-03.07.00:813][263]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.26-03.07.00:813][263]LogDirectoryWatcher: A directory notification for '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/' was aborted.
+[2017.04.26-03.07.00:813][263]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.26-03.07.00:832][263]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.04.26-03.07.00:833][263]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.04.26-03.07.00:833][263]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.04.26-03.07.00:833][263]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.04.26-03.07.00:859][263]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.04.26-03.07.00:871][263]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.04.26-03.07.00:871][263]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.04.26-03.07.00:877][263]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.04.26-03.07.00:878][263]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.04.26-03.07.00:882][263]LogDerivedDataCache: Shutdown
+[2017.04.26-03.07.00:882][263]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.04.26-03.07.00:882][263]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.04.26-03.07.00:890][263]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.04.26-03.07.00:895][263]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.04.26-03.07.00:901][263]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.04.26-03.07.00:907][263]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.04.26-03.07.00:907][263]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.04.26-03.07.00:907][263]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.04.26-03.07.00:922][263]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.04.26-03.07.00:923][263]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.04.26-03.07.00:923][263]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.04.26-03.07.00:923][263]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.04.26-03.07.00:923][263]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.26-03.07.00:956][263]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.26-03.07.00:956][263]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.26-03.07.00:988][263]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.26-03.07.00:996][263]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.26-03.07.00:999][263]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.04.26-03.07.00:999][263]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB12CEC58-4A82-6FD8-BD2B-B4A8F9F73DA1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=dc2753cc4e06a13a709a9aaa78e3711d%7C0896718b04484505908eece927a07ce5%7C090fbe86-46d4-4c95-a9a9-99ebcbdad2c7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.26-03.07.00:999][263]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB12CEC58-4A82-6FD8-BD2B-B4A8F9F73DA1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=dc2753cc4e06a13a709a9aaa78e3711d%7C0896718b04484505908eece927a07ce5%7C090fbe86-46d4-4c95-a9a9-99ebcbdad2c7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.26-03.07.01:013][263]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.26-03.07.01:025][263]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.26-03.07.01:025][263]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.26-03.07.01:025][263]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.26-03.07.01:025][263]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.26-03.07.01:025][263]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.26-03.07.01:042][263]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.26-03.07.01:052][263]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.26-03.07.01:052][263]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.26-03.07.01:064][263]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.26-03.07.01:064][263]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.26-03.07.01:064][263]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.26-03.07.01:064][263]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.26-03.07.01:075][263]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.26-03.07.01:100][263]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.26-03.07.01:100][263]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.26-03.07.01:114][263]LogExit: Exiting.
+[2017.04.26-03.07.01:115][263]Log file closed, 04/25/17 23:07:01

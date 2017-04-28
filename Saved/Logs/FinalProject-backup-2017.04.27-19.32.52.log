@@ -1,0 +1,321 @@
+﻿Log file open, 04/27/17 19:16:26
+LogInit:Display: Running engine for game: FinalProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(188773491) SRandInit(188773491).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.104783
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Keyyva/Programs/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.27-23.16.28:045][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.27-23.16.28:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.27-23.16.28:124][  0]LogInit: Computer: KEYYVA-PREDATOR
+[2017.04.27-23.16.28:124][  0]LogInit: User: Keyyva
+[2017.04.27-23.16.28:124][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.27-23.16.28:124][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2017.04.27-23.16.28:141][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.27-23.16.28:141][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.27-23.16.28:141][  0]LogMemory: Process Physical Memory: 264.73 MB used, 264.73 MB peak
+[2017.04.27-23.16.28:141][  0]LogMemory: Process Virtual Memory: 262.88 MB used, 262.88 MB peak
+[2017.04.27-23.16.28:141][  0]LogMemory: Physical Memory: 5661.02 MB used,  10636.77 MB free, 16297.78 MB total
+[2017.04.27-23.16.28:141][  0]LogMemory: Virtual Memory: 674.25 MB used,  10636.77 MB free, 134217728.00 MB total
+[2017.04.27-23.16.29:377][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2017.04.27-23.16.31:694][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.27-23.16.32:288][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.04.27-23.16.32:288][  0]LogD3D11RHI:       3038/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.27-23.16.32:297][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.27-23.16.32:297][  0]LogD3D11RHI:       128/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.27-23.16.32:298][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.27-23.16.32:298][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.27-23.16.32:298][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.27-23.16.32:316][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.27-23.16.32:316][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.27-23.16.32:316][  0]LogWindows: EnumDisplayDevices:
+[2017.04.27-23.16.32:316][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.04.27-23.16.32:316][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.27-23.16.32:316][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.27-23.16.32:316][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.04.27-23.16.32:316][  0]LogWindows:    4. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.04.27-23.16.32:317][  0]LogWindows:    5. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.04.27-23.16.32:317][  0]LogWindows:    6. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.04.27-23.16.32:317][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.27-23.16.32:317][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.04.27-23.16.32:317][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.04.27-23.16.32:317][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.04.27-23.16.32:317][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.27-23.16.32:345][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.27-23.16.32:632][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.27-23.16.32:710][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Intermediate/Shaders/WorkingDirectory/11736/).
+[2017.04.27-23.16.32:710][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Keyyva/AppData/Local/Temp/UnrealShaderWorkingDir/811C41824A9C1C55161F90BFA69CE84D/'.
+[2017.04.27-23.16.32:716][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.27-23.16.35:172][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.27-23.16.35:236][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.27-23.16.35:298][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.27-23.16.35:365][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.27-23.16.35:438][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.27-23.16.35:501][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.27-23.16.35:564][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.27-23.16.35:629][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.27-23.16.35:684][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.27-23.16.35:750][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.27-23.16.35:814][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.27-23.16.35:876][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.27-23.16.35:940][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.27-23.16.36:004][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.27-23.16.36:067][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.27-23.16.36:207][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.27-23.16.36:207][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.27-23.16.36:256][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.27-23.16.36:402][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.27-23.16.36:442][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.27-23.16.36:506][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.27-23.16.36:570][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.27-23.16.36:632][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.27-23.16.36:698][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.27-23.16.36:698][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.27-23.16.37:750][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.27-23.16.37:967][  0]LogDerivedDataCache: Loaded boot cache 0.22s 50MB C:/Users/Keyyva/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.27-23.16.37:967][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Keyyva/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.27-23.16.37:967][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.27-23.16.37:967][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.27-23.16.37:967][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.27-23.16.37:967][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.27-23.16.38:058][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.27-23.16.38:073][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Keyyva/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.27-23.16.38:293][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.27-23.16.38:319][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.27-23.16.38:319][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.27-23.16.43:015][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.27-23.16.43:131][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.27-23.16.43:711][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.27-23.16.43:837][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.27-23.16.43:904][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.27-23.16.43:904][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.27-23.16.43:904][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.27-23.16.48:343][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: finalproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3356675869
+[2017.04.27-23.16.48:475][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2017.04.27-23.16.48:582][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.067862 seconds
+[2017.04.27-23.16.48:594][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.04.27-23.16.48:595][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.04.27-23.16.48:595][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.27-23.16.48:667][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.27-23.17.04:570][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.27-23.17.04:637][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.27-23.17.05:978][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.27-23.17.06:898][  0]SourceControl: Info Source control is disabled
+[2017.04.27-23.17.06:909][  0]SourceControl: Info Source control is disabled
+[2017.04.27-23.17.07:007][  0]SourceControl: Info Source control is disabled
+[2017.04.27-23.17.07:078][  0]SourceControl: Info Source control is disabled
+[2017.04.27-23.17.09:393][  0]LogEngine: Initializing Engine...
+[2017.04.27-23.17.09:403][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.27-23.17.10:371][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.27-23.17.10:460][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.27-23.17.10:495][  0]LogInit: FAudioDevice initialized.
+[2017.04.27-23.17.10:516][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Keyyva/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.27-23.17.10:522][  0]LogInit: Texture streaming: Enabled
+[2017.04.27-23.17.10:680][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.27-23.17.10:852][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.27-23.17.11:433][  0]LogInit: Transaction tracking system initialized
+[2017.04.27-23.17.12:516][  0]BlueprintLog: New page: Editor Load
+[2017.04.27-23.17.15:629][  0]LocalizationService: Info Localization service is disabled
+[2017.04.27-23.17.17:362][  0]LogConsoleResponse:Display: 
+[2017.04.27-23.17.21:869][  0]LogFileCache: Scanning file cache for directory 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/' took 0.02s
+[2017.04.27-23.17.21:869][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.27-23.17.21:898][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.27-23.17.26:138][  0]SourceControl: Info Source control is disabled
+[2017.04.27-23.17.26:344][  0]LightingResults: New page: Lighting Build
+[2017.04.27-23.17.26:644][  0]MapCheck: New page: Map Check
+[2017.04.27-23.17.26:644][  0]LightingResults: New page: Lighting Build
+[2017.04.27-23.17.38:591][  0]LogAIModule: Creating AISystem for world Benoit_Isaacs_multiplayer
+[2017.04.27-23.17.40:318][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.27-23.17.40:411][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.27-23.17.40:478][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.188ms to complete.
+[2017.04.27-23.17.40:478][  0]LogFileHelpers: Loading map 'Benoit_Isaacs_multiplayer' took 14.254
+[2017.04.27-23.17.45:819][  0]LogCollectionManager: Loaded 0 collections in 0.001344 seconds
+[2017.04.27-23.17.46:943][  0]LogFileCache: Scanning file cache for directory 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Collections/' took 0.01s
+[2017.04.27-23.17.46:943][  0]LogFileCache: Scanning file cache for directory 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/Developers/Keyyva/Collections/' took 0.01s
+[2017.04.27-23.17.46:943][  0]LogFileCache: Scanning file cache for directory 'D:/Keyyva/Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/Collections/' took 0.01s
+[2017.04.27-23.17.46:943][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.27-23.17.46:986][  0]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 2244 classes and 450 folders.
+[2017.04.27-23.17.47:009][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.27-23.17.47:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.27-23.17.47:151][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.04.27-23.17.48:411][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.04.27-23.17.49:211][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.27-23.17.50:877][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.27-23.17.51:088][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.27-23.17.51:343][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.04.27-23.17.51:344][  0]LogLoad: (Engine Initialization) Total time: 100.65 seconds
+[2017.04.27-23.17.51:344][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.76 seconds
+[2017.04.27-23.17.51:344][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.27-23.17.51:344][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.27-23.17.51:353][  0]LogOcInput: OculusInput pre-init called
+[2017.04.27-23.17.51:713][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.27-23.17.51:838][  0]LogSlate: Took 0.016948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.27-23.17.51:899][  0]LogSlate: Took 0.043870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.27-23.17.51:913][  0]LogSlate: Took 0.012236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.27-23.17.52:630][  0]LogRenderer: Reallocating scene render targets to support 1168x924 NumSamples 1 (Frame:2).
+[2017.04.27-23.17.53:142][  1]LogSlate: Took 0.034811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-23.17.53:314][  2]LogSlate: Took 0.000507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-23.17.53:347][  3]LogAssetRegistry: Asset discovery search completed in 64.8935 seconds
+[2017.04.27-23.17.53:347][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000011 seconds (found 0 objects)
+[2017.04.27-23.17.53:347][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.04.27-23.18.27:260][ 20]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.27-23.18.27:912][ 20]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.27-23.18.28:194][ 20]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.04.27-23.18.29:423][ 20]LogSlate: Took 0.018485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.27-23.21.51:174][626]LogSlate: Took 0.067484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.27-23.23.02:995][485]LogEditorTransaction: Undo Move Widget
+[2017.04.27-23.26.58:360][908]LogEditorTransaction: Undo Move Widget
+[2017.04.27-23.28.13:512][816]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Benoit_Isaacs_multiplayer' took 0.033
+[2017.04.27-23.28.13:538][816]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UI/MainMenu/MainMenu] ([1] browsable assets)...
+[2017.04.27-23.28.13:538][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UI/MainMenu/MainMenu]
+[2017.04.27-23.28.13:562][816]LogSavePackage: Save=13.26ms
+[2017.04.27-23.28.13:562][816]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/MainMenu_Auto137451F39475EF69C8F5762A805348A08.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/MainMenu/MainMenu_Auto1.uasset'
+[2017.04.27-23.28.13:565][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/Autosaves/Game/CustomContent/UI/MainMenu/MainMenu_Auto1.uasset
+[2017.04.27-23.28.13:565][816]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.04.27-23.31.38:514][766]LogSavePackage: Save=89.21ms
+[2017.04.27-23.31.38:514][766]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/MainMenuBB9955194561540A8D091CB9E596CD36.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/MainMenu/MainMenu.uasset'
+[2017.04.27-23.31.38:521][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/MainMenu/MainMenu.uasset
+[2017.04.27-23.31.40:149][961]BlueprintLog: New page: Compile MainMenu
+[2017.04.27-23.31.40:907][ 30]LogSavePackage: Save=11.24ms
+[2017.04.27-23.31.40:907][ 30]LogSavePackage: Moving '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Saved/MainMenu244657924821C24F37F5488C4CFB0615.tmp' to '../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/MainMenu/MainMenu.uasset'
+[2017.04.27-23.31.40:911][ 30]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Humber/Semester4/GameEngineDesign1_GAME254-0NB/FinalProject/Content/CustomContent/UI/MainMenu/MainMenu.uasset
+[2017.04.27-23.32.31:802][674]LogEditorTransaction: Undo Edit Padding
+[2017.04.27-23.32.31:813][674]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.04.27-23.32.33:258][674]LogCrashTracker: 
+
+
+[2017.04.27-23.32.33:258][674]LogCrashTracker: 
+
+
+[2017.04.27-23.32.33:258][674]LogWindows:Error: === Critical error: ===
+[2017.04.27-23.32.33:258][674]LogWindows:Error: 
+[2017.04.27-23.32.33:258][674]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 10] 
+[2017.04.27-23.32.33:258][674]LogWindows:Error: Cast of nullptr to UserWidget failed
+[2017.04.27-23.32.33:258][674]LogWindows:Error: 
+[2017.04.27-23.32.33:258][674]LogWindows:Error: 
+[2017.04.27-23.32.33:258][674]LogWindows:Error: KERNELBASE.dll!0x00000000C35E7788
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000088D864DE
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000088BACEDE
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000088B32719
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-CoreUObject.dll!0x000000009D70BF82
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMG.dll!0x000000007F1BB208
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMG.dll!0x000000007F236E55
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Sequencer.dll!0x0000000079A51FCB
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A7BA623
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A74FAF5
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A810588
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A7A060A
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A758A7B
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A801B76
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A7A8276
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Sequencer.dll!0x0000000079B26E5A
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Sequencer.dll!0x0000000079B27865
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Sequencer.dll!0x0000000079BBBD63
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Sequencer.dll!0x0000000079B5CE6E
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007CE259AE
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007CF3A42E
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Sequencer.dll!0x0000000079BB5DE9
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Sequencer.dll!0x0000000079B5CECE
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-CoreUObject.dll!0x000000009D77FCFE
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMG.dll!0x000000007F290AB7
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-CoreUObject.dll!0x000000009D7AC6F0
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007CFD7D2A
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007CFD7AF7
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-DetailCustomizations.dll!0x00000000790A978F
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-DetailCustomizations.dll!0x0000000079052FF7
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-DetailCustomizations.dll!0x00000000790581D7
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x00000000851E0771
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x0000000085271E77
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x00000000850AD25F
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x00000000850ADD86
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x0000000085047424
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A763F9C
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A807D12
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A7A8626
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A75B2F8
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A837299
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UMGEditor.dll!0x000000007A801F6B
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Kismet.dll!0x000000007E39159C
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Kismet.dll!0x000000007E395FDC
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Engine.dll!0x0000000081672F5A
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000804BB4E3
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Kismet.dll!0x000000007E4EEB81
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000080190116
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000801B6AD2
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000008019F909
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000008019FFCB
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000802028AD
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000080247DB1
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Kismet.dll!0x000000007E391941
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Kismet.dll!0x000000007E3963E6
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x0000000085048894
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x000000008508DBC2
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000080956EEE
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000809412A4
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x00000000850331D4
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x000000008500376E
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x0000000085005366
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x000000008508F449
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Slate.dll!0x000000008507E3C8
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000088D7CB2C
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000088D667B1
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000088D7EA0C
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000088D626D9
+[2017.04.27-23.32.33:258][674]LogWindows:Error: USER32.dll!0x00000000C6C51C24
+[2017.04.27-23.32.33:258][674]LogWindows:Error: USER32.dll!0x00000000C6C5156C
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000088D7F316
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor.exe!0x00000000AF57D790
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor.exe!0x00000000AF56EB40
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor.exe!0x00000000AF56EBBA
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor.exe!0x00000000AF580A29
+[2017.04.27-23.32.33:258][674]LogWindows:Error: UE4Editor.exe!0x00000000AF5822B6
+[2017.04.27-23.32.33:258][674]LogWindows:Error: KERNEL32.DLL!0x00000000C52F8364
+[2017.04.27-23.32.33:258][674]LogWindows:Error: ntdll.dll!0x00000000C71470D1
+[2017.04.27-23.32.33:258][674]LogWindows:Error: ntdll.dll!0x00000000C71470D1
+[2017.04.27-23.32.33:258][674]LogWindows:Error: 
+[2017.04.27-23.32.33:290][674]LogExit: Executing StaticShutdownAfterError
+[2017.04.27-23.32.33:374][674]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.04.27-23.32.33:374][674]Log file closed, 04/27/17 19:32:33

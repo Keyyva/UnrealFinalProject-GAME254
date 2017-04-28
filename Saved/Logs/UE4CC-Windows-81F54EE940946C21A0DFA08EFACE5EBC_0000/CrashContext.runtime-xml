@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-81F54EE940946C21A0DFA08EFACE5EBC_0000</CrashGUID>
+		<ProcessId>11736</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>980</SecondsSinceStart>
+		<GameName>UE4-FinalProject</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.0-3299760+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;D:\Keyyva\Documents\Humber\Semester4\GameEngineDesign1_GAME254-0NB\FinalProject\FinalProject.uproject&quot;</CommandLine>
+		<LanguageLCID>4105</LanguageLCID>
+		<AppDefaultLocale>en_CA</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3299760</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Keyyva</UserName>
+		<BaseDir>D:/Keyyva/Programs/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Keyyva/Programs/Epic Games/UE_4.15/</RootDir>
+		<MachineId>DC2753CC4E06A13A709A9AAA78E3711D</MachineId>
+		<LoginId>dc2753cc4e06a13a709a9aaa78e3711d</LoginId>
+		<EpicAccountId>0896718b04484505908eece927a07ce5</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint>Layout=&quot;WidgetDetails&quot; Label=&quot;Details&quot; Content=SWidgetDetailsView</UserActivityHint>
+		<ErrorMessage>Fatal error: [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 10] &nl;Cast of nullptr to UserWidget failed&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17089462272</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>9472610304</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140734735757312</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1361047552</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1376227328</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1958649856</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1975345152</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636289327537840000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
